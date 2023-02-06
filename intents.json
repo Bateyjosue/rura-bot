@@ -1,0 +1,45 @@
+{
+  "intents" :
+  [
+    {
+      "tag" : "address",
+      "patterns" : ["What is your address?", "Where are you located?", "Where can I find you?"],
+      "responses" : ["We are located at 123 Main Street", "You can find us at 123 Main Street"]
+    },
+    {
+      "tag" : "hours",
+      "patterns" : ["What are your hours?", "When are you open?", "When are you closed?"],
+      "responses" : ["We are open from 9 AM to 5 PM", "Our office is closed on weekends"]
+    },
+    {
+      "tag" : "services",
+      "patterns" : ["What services do you offer?", "What can I do here?", "What kind of assistance can you provide?"],
+      "responses" : ["We offer a variety of services including assistance with taxes, permits, and licenses", "We are here to help with any government-related services you may need"]
+    },
+    {
+      "tag" : "documents",
+      "patterns" : ["What documents do I need?", "What forms do I fill out?", "What paperwork is required?"],
+      "responses" : ["You may need to bring a government-issued ID, proof of residency, and any other relevant documentation", "The specific documents required will depend on the services you are seeking"]
+    },
+    {
+      "tag" : "payments",
+      "patterns" : ["How can I pay?", "What payment methods do you accept?", "Can I pay online?"],
+      "responses" : ["Payments can be made online on irembo", "Our website has more information on available payment options"]
+    },
+    {
+      "tag" : "contact",
+      "patterns" : ["How can I contact you?", "What is your phone number?", "What is your email address?"],
+      "responses" : ["You can reach us by phone at 123-456-7890", "Our email address is info@gov.rw", "More contact information can be found on our website"]
+    },
+    {
+      "tag" : "eligibility",
+      "patterns" : ["Who is eligible for your services?", "Who can use your services?", "Am I eligible for your services?"],
+      "responses" : ["Our services are available to all citizens", "Anyone can use our services, as long as they are a citizen"]
+      },
+      {
+      "tag" : "cost",
+      "patterns" : ["How much does it cost?", "What is the cost of your services?", "How much do I have to pay?"],
+      "responses" : ["The cost of our services varies depending on what you need", "The cost of our services varies, please contact us for more information"]
+      }
+  ]
+}
