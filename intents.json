@@ -1,0 +1,3366 @@
+{
+  "intents": [
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "Greetings",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Hi there",
+        "Good morning",
+        "Good evening",
+        "Mukomere",
+        "Mambo",
+        "Bonjour",
+        "Hola",
+        "Namaste",
+        "Salam"
+      ],
+      "responses": [
+        "Hello, How can I help you?",
+        "hello! how are you doing?",
+        "hi, pleasure to be on your service",
+        "hi, how can I help you?"
+      ]
+    },
+    {
+      "tag": "Endings",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Cheers",
+        "bye",
+        "Goodbye",
+        "Farewell",
+        "See you",
+        "See you later",
+        "Murakoze",
+        "Asante",
+        "Toda"
+      ],
+      "responses": [
+        "its a pleasure to be at your service!",
+        "you are welcome!",
+        "feel free to come again anytime please!",
+        "Anytime!",
+        "happy to help!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "about_MINAGRI",
+      "patterns": [
+        "Guide me to about MINAGRI?",
+        "What is the link to the about MINAGRI?",
+        "How do you get about MINAGRI?",
+        "How can i get about MINAGRI?",
+        "Show me about MINAGRI"
+      ],
+      "responses": [
+        "You can use this link >> https://www.minagri.gov.rw/about"
+      ]
+    },
+    {
+      "tag": "address_MINAGRI",
+      "patterns": [
+        "What is the location of MINAGRI?",
+        "Where is the MINAGRI offices located?"
+      ],
+      "responses": [
+        "KG 569 Street, Kigali/Rwanda"
+      ]
+    },
+    {
+      "tag": "Minister_MINAGRI",
+      "patterns": [
+        "who is the minister of MINAGRI?"
+      ],
+      "responses": [
+        "Dr. Gerardine Mukeshimana is the minister of Agriculture and Animal Resources",
+        "Dr. Ildephonse Musafiri is the minister of state"
+      ]
+    },
+    {
+      "tag": "MINAGRI-in-full",
+      "patterns": [
+        "MINAGRI in full?",
+        "what is MINAGRI?",
+        "MINAGRI?"
+      ],
+      "responses": [
+        "Ministry of Agriculture and Animal Resources"
+      ]
+    },
+    {
+      "tag": "home_MINAGRI",
+      "patterns": [
+        "Guide me to home MINAGRI?",
+        "Where do you get home?",
+        "What is the link to the home MINAGRI",
+        "How do you get to home MINAGRI?",
+        "Show me home MINAGRI"
+      ],
+      "responses": [
+        "You can use this link >> https://www.minagri.gov.rw/"
+      ]
+    },
+    {
+      "tag": "Publications_MINAGRI",
+      "patterns": [
+        "Guide me to MINAGRI publications?",
+        "Where do I get MINAGRI laws?",
+        "What is the link to the MINAGRI publications?",
+        "How do you get to MINAGRI reports?",
+        "How does investment works at MINAGRI?",
+        "How can i get safe guard documents at MINAGRI?",
+        "Show me MINAGRI publications"
+      ],
+      "responses": [
+        "You can use this >> link https://www.minagri.gov.rw/publications/policies-and-strategies"
+      ]
+    },
+    {
+      "tag": "news_events_MINAGRI",
+      "patterns": [
+        "Guide me to MINAGRI news & events?",
+        "Where do i get MINAGRI news & events?",
+        "What is the link to the MINAGRI news & events?",
+        "How can i get MINAGRI news & events?",
+        "Show me MINAGRI news & events"
+      ],
+      "responses": [
+        "You can use this link >> https://www.minagri.gov.rw/updates/news"
+      ]
+    },
+    {
+      "tag": "Mandate_MINAGRI",
+      "patterns": [
+        "Guide me to MINAGRI mandate?",
+        "What is the link to MINAGRI projects?",
+        "How do i get MINAGRI directorates ?",
+        "Show me MINAGRI projects",
+        "How do i apply for MINAGRI mandate?"
+      ],
+      "responses": [
+        "You can use this https://www.minagri.gov.rw/mandate/directorates"
+      ]
+    },
+    {
+      "tag": "Modernization_MINAGRI",
+      "patterns": [
+        "Guide me to MINAGRI agriculture modenization?",
+        "Where do i get MINAGRI agriculture modenization?",
+        "What is the link to MINAGRI agriculture modenization?"
+      ],
+      "responses": [
+        "You can use this >> https://www.minagri.gov.rw/mandate/directorates/agriculture-development"
+      ]
+    },
+    {
+      "tag": "AGRISHOW_MINAGRI",
+      "patterns": [
+        "Guide me to MINAGRI AGRISHOW?",
+        "Where do you get information about MINAGRI AGRISHOW ?",
+        "What is the link to MINAGRI AGRISHOW?",
+        "How do you get AGRISHOW information?",
+        "what is the link to online MINAGRI Agrishow exhibitors registration? "
+      ],
+      "responses": [
+        "You can use this link >> https://www.minagri.gov.rw/1/agrishow-1 for more information"
+      ]
+    },
+    {
+      "tag": "MIS_MINAGRI",
+      "patterns": [
+        "Guide me to MINAGRI MIS?",
+        "What is the link to  vMIS?",
+        "How do i get to MINAGRI MIS form?",
+        "what is the link to online MINAGRI MIS? "
+      ],
+      "responses": [
+        "You can use this link >> https://mis.minagri.gov.rw/mis/dhis-web-commons/security/login.action"
+      ]
+    },
+    {
+      "tag": "crop_monitor_MINAGRI",
+      "patterns": [
+        "Guide me to MINAGRI crop monitor?",
+        "Where do i get to MINAGRI crop monitor?",
+        "What is the link get to MINAGRI crop monitor?",
+        "How can I get to MINAGRI crop monitor?",
+        "What is the crop monitor?",
+        "Show me MINAGRI monthly bulletins",
+        "How do i get MINAGRI monthly bulletins?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.minagri.gov.rw/monthly-bulletins"
+      ]
+    },
+    {
+      "tag": "background_RISA",
+      "patterns": [
+        "when was RISA created?",
+        "tell me a little bit history of RISA?",
+        "what would you tell me about RISA?"
+      ],
+      "responses": [
+        "Rwanda Information Society Authority “RISA” is a government institution established in 2017, governed by presidential order N° 077/01 of 09/12/2022.RISA derives from the former IT department of Rwanda Development Board, RDB. Currently, it is an affiliated institution to the Ministry of ICT and Innovation. RISA has been put in place to be at the forefront of all ICT projects’ implementation and streamline research, infrastructures and innovation within the ICT sector. Furthermore champions the implementation of Smart Rwanda Master Plan initiatives."
+      ]
+    },
+    {
+      "tag": "mandate_RISA",
+      "patterns": [
+        "what is the main objectives of RISA?",
+        "what is the main task of RISA?",
+        "what is RISA is striving for?"
+      ],
+      "responses": [
+        "Rwanda Information Society Authority has the mandate of planning and coordinating the implementation of national ICT for Development Agenda. In this perspective, RISA, in partnership with stakeholders and partners work to digitize government services and ensure easy access by the citizens."
+      ]
+    },
+    {
+      "tag": "responsibilities_RISA",
+      "patterns": [
+        "what are the responsibilitiesof RISA?",
+        "In details tell me the responsibilities of RISA?",
+        "why does RISA exists?",
+        "what are the plans of RISA?",
+        "what are the main duties of RISA?"
+      ],
+      "responses": [
+        "RISA has the following responsibilities:\n(a) to participate in initiating and implementing national Information and Communication Technologies policies and programs in order to fast-track socio-economic growth;\n(b) to implement strategies which expand the access and affordability of Information and Communication Technologies infrastructures and services;\n(c) to accelerate community development through mainstreaming Information and Communication Technologies in national socio-economic sectors;\n(d) to prepare and coordinate programs that increase the required skills in the field of Information and Communication Technology in order to achieve a knowledgebased economy;\n(e) to establish and strengthen innovation programs in Information and Communication Technology;\n(f) to coordinate the implementation of projects and digitization initiatives that deliver Information and Communication Technology services;\n(g) to cooperate and collaborate with national, regional and international institutions with a similar mission;\n(h) to coordinate national Information and Communication Technology procurement for commonly procured Information and Communication Technology goods and services;\n(i) to advise Government on all activities which can fast track the development of Information and Communication Technology;\n(j) to provide technical assistance related to Information and Communication Technology as needed in public institutions;\n(k) to promote use of public key Infrastructure based technology in order to ensure authenticity, data integrity, confidentiality and accountability,\n(l) to promote and enhance general Information and Communication Technology knowledge, sensitization and awareness and Emerging Technologies;\n(m) to establish necessary Information and Communication Technology guidelines and Blueprints based on national, regional and international principles and monitor their implementation;\n(n) to recruit and deploy Information and Communication Technology Staff in public organs;\n(o) to perform any other responsibility, which is not contrary to its mission, as may be assigned by law or by competent organs."
+      ]
+    },
+    {
+      "tag": "management_team_RISA",
+      "patterns": [
+        "who is the ceo of RISA?",
+        "who is the chief executif officer of RISA?",
+        "tell me the structure of RISA?",
+        "who lead RISA?",
+        "what are the main departments in RISA?"
+      ],
+      "responses": [
+        "Rwanda Information Society Authority is headed by the Chief Executive Officer and two deputies: Government Chief Information Officer and Government Chief Innovation Officer.\nChief Executive Officer: Innocent BAGAMBA MUHIZI\nGovernment Chief Information Officer: Josephine NYIRANZEYIMANA\nChief Innovation Officer: Antoine SEBERA\nChief financial officer: Jane BATETA"
+      ]
+    },
+    {
+      "tag": "parteners_RISA",
+      "patterns": [
+        "who are the partners of RISA?"
+      ],
+      "responses": [
+        "Some of the parterners\nMINICT You can use this link<a href =\"https://www.minict.gov.rw\" target=\"_blank\"> here</a> for more information\nNCSA You can use this link<a href =\"https://www.cyber.gov.rw\" target=\"_blank\"> here</a> for more information\nRURA You can use this link<a href =\"https://http://www.rura.rw\" target=\"_blank\"> here</a> for more information"
+      ]
+    },
+    {
+      "tag": "publication_RISA",
+      "patterns": [
+        "what are the publication of RISA?",
+        "what are the reports of RISA?",
+        "need documents of RISA?",
+        "tell me the announcements from RISA?"
+      ],
+      "responses": [
+        "You can use this link >> <a href =\"https://www.risa.rw/#publications\" target=\"_blank\">here</a>"
+      ]
+    },
+    {
+      "tag": "functions_RISA",
+      "patterns": [
+        "what are the most functions of RISA?",
+        "tell me current projects done by RISA?"
+      ],
+      "responses": [
+        "You can use this link >> <a href =\"https://www.risa.rw/#whatwedo\" target=\"_blank\">here</a>"
+      ]
+    },
+    {
+      "tag": "news_RISA",
+      "patterns": [
+        "need news related to RISA",
+        "some hot news from RISA",
+        "what's recent in RISA"
+      ],
+      "responses": [
+        "You can use this link >> <a href =\"https://www.risa.rw/#media\" target=\"_blank\">here</a>"
+      ]
+    },
+    {
+      "tag": "Address_RISA",
+      "patterns": [
+        "where RISA is located at?",
+        "tell me the headquaters of RISA",
+        "where is RISA office?",
+        "where can we visit RISA?",
+        "what is RISA email address?",
+        "which street are RISA located at?",
+        "what is RISA address?",
+        "which district are RISA located?",
+        "which sector can I find RISA in?",
+        "RISA helpline",
+        "RISA toolfree",
+        "RISA contact number"
+      ],
+      "responses": [
+        "Email: info@risa.gov.rw\nPhone: 4046\nAddress: Telecom House 8 KG 7 St, Kacyiru, Kigali P.O. Box 6603 Kigali-Rwanda"
+      ]
+    },
+    {
+      "tag": "jobs_RISA",
+      "patterns": [
+        "Any tender in RISA?",
+        "what are the jobs opportunity available at RISA?",
+        "need internship at RISA",
+        "Any tender in RISA?",
+        "any offered internships at RISA",
+        "Guide me to careers at RISA"
+      ],
+      "responses": [
+        "You can use this link <a href =\"http://risa.rw/index.php?id=24\" target=\"_blank\">here</a>"
+      ]
+    },
+    {
+      "tag": "usefull_RISA",
+      "patterns": [
+        "what are the recommended usefull links at RISA?",
+        "guide me to related links to RISA?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://risa.rw/footer-menu/useful-links/\" target=\"_blank\">here</a>"
+      ]
+    },
+    {
+      "tag": "e-service_RISA",
+      "patterns": [
+        "where can I get digital certificate at RISA?",
+        "Need a digital certificate at RISA",
+        "what would you say about digital certificate at RISA?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://www.govca.rw/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "privacy_RISA",
+      "patterns": [
+        "what is the privacy policy of RISA?",
+        "what is the terms of use of RISA?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://www.risa.rw/footer-menu/privacy-policy/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "guidelines_RISA",
+      "patterns": [
+        "what are the guidelines for ICT implementations in government institutions at RISA",
+        "what are the instructions for ICT implementations at RISA?",
+        "guide me user manual of ICT for RISA?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://www.risa.rw/footer-menu/guidelines/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Services_RISA",
+      "patterns": [
+        "what are the services RISA provide?",
+        "what is RISA services?"
+      ],
+      "responses": [
+        "Procurement of Health Commodities",
+        "Quality management",
+        "Sales and Distribution"
+      ]
+    },
+    {
+      "tag": "Address_RISA",
+      "patterns": [
+        "where do RISA located?",
+        "what is RISA address?",
+        "where can i find RISA?"
+      ],
+      "responses": [
+        "we are located at KN 8 Ave , KG 509 St Kigali",
+        "our address is KN 8 Ave , KG 509 St Kigali",
+        "you can find us at KN 8 Ave , KG 509 St Kigali"
+      ]
+    },
+    {
+      "tag": "CEO_RMS",
+      "patterns": [
+        "Who is RMS CEO?"
+      ],
+      "responses": [
+        "Our CEO is Pie Harerimana",
+        "The CEO of RMS is Pie Harerimana"
+      ]
+    },
+    {
+      "tag": "Objectives_RMS",
+      "patterns": [
+        "What is RMS main objective?"
+      ],
+      "responses": [
+        "objective is to ensure availability of medicines, medical supplies and consumables in the right quantity, with the acceptable quality"
+      ]
+    },
+    {
+      "tag": "Price_RMS",
+      "patterns": [
+        "what are the most used electro-medical equipment do RMS have?",
+        "what is the electro-medical equipment which is mostly usefull than other at RMS?"
+      ],
+      "responses": [
+        "Anesthesia machine",
+        "Phototherapy Devices",
+        "Physiotherapy Devices",
+        "Aspiration/Suction Pump",
+        "Blood Chemistry analyzer",
+        "C-Arm system – unit, monitor, table",
+        "Centrifuge",
+        "Coagulation analyzer"
+      ]
+    },
+    {
+      "tag": "Oder_RMS",
+      "patterns": [
+        "where do RMS located?",
+        "what is RMS address?",
+        "where can i find RMS?"
+      ],
+      "responses": [
+        "we are located at KN 8 Ave , KG 509 St Kigali",
+        "our address is KN 8 Ave , KG 509 St Kigali",
+        "you can find us at KN 8 Ave , KG 509 St Kigali"
+      ]
+    },
+    {
+      "tag": "Partners_RMS",
+      "patterns": [
+        "what are RMS partners?",
+        "do RMS have partners?"
+      ],
+      "responses": [
+        "you can find our partners here https://www.rmsltd.rw/",
+        "use this link to see our partners https://www.rmsltd.rw/"
+      ]
+    },
+    {
+      "tag": "social_media_RMS",
+      "patterns": [
+        "what is RMS social media?",
+        "where can i find RMS on social meadia?"
+      ],
+      "responses": [
+        "Our social meadia is Gmail,twitter, and facebook",
+        "you can find out on social media via Gmail,twitter, and facebook"
+      ]
+    },
+    {
+      "tag": "about_RMS",
+      "patterns": [
+        "what is RMS?"
+      ],
+      "responses": [
+        "RMS is company that offers services to its stakeholders and customer’s"
+      ]
+    },
+    {
+      "tag": "Job_RMS",
+      "patterns": [
+        "How do i apply for a job at RMS ltd?",
+        "How can i get job offer at RMS ltd?"
+      ],
+      "responses": [
+        "To apply for a job at RMS please visit >> https://www.rmsltd.rw/jobs"
+      ]
+    },
+    {
+      "tag": "Tender_RMS",
+      "patterns": [
+        "How do i apply for a tender at RMS ltdS?",
+        "How can i bid for tendering at RMS ltd?"
+      ],
+      "responses": [
+        "To apply for a tender at RMS ltd by visiting: https://www.rmsltd.rw/tender"
+      ]
+    },
+    {
+      "tag": "Purchase_RMS",
+      "patterns": [
+        "can i purchase products online at RMS ltd?",
+        "How can i buy products online at RMS ldt?"
+      ],
+      "responses": [
+        "?"
+      ]
+    },
+    {
+      "tag": "services_RBC",
+      "patterns": [
+        "what are the services of RBC?"
+      ],
+      "responses": [
+        "In the event that you are feeling sick, please contact your nearest Health Centre or Health Post. If necessary, a Community Health Worker will refer you to a District Hospital.Our staff is highly qualified and medically trained, and we kindly ask you to follow their instructions.Our goal is to offer you the best possible attention and medical service. We are constantly evolving and working to get even better every day. In the event you are not satisfied with our work, please do not hesitate to contact us.",
+        "For any questions about our services, or in the event of an emergency please call our toll free number 114 or call +250788202080",
+        "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=631\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "mission_vision_RBC",
+      "patterns": [
+        "what are the mission of RBC?",
+        "what are the vision of RBC?"
+      ],
+      "responses": [
+        "Mission: RBC promotes high quality, affordable, and sustainable health care services to the population through evidence-based interventions and practices guided by ethics and professionalism. Vision: To become a Center of Excellence for the prosperity of the country, ensuring quality health service delivery, education and research."
+      ]
+    },
+    {
+      "tag": "Home_RBC",
+      "patterns": [
+        "Guide me to RBC Home?",
+        "What is the link to get to RBC Home?",
+        "How do i get to RBC Home?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=188\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Event_RBC",
+      "patterns": [
+        "Guide me to events in  RBC?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=632\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "contact_RBC",
+      "patterns": [
+        "What is the link to RBC contact?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=633\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "divisions_units_RBC",
+      "patterns": [
+        "What is Divisions and Units on RBC?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=667\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "about_RBC",
+      "patterns": [
+        "guide to about RBC?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=667\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "annoucement_RBC",
+      "patterns": [
+        "What is  RBC annoucement ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rbc.gov.rw/index.php?id=704\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "publication_RBC",
+      "patterns": [
+        "What is  RBC publication ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rbc.gov.rw/index.php?id=691\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "umucyo_exploration",
+      "patterns": [
+        "What are the requirements to access the Umucyo system?",
+        "What do I need to have in order to use the Umucyo system?",
+        "Can you list the prerequisites for accessing the Umucyo system?",
+        "What hardware and software do I need to access Umucyo?",
+        "What is required in terms of technology to use Umucyo?",
+        "Can you tell me the technical requirements for Umucyo access?",
+        "How do I make sure my computer is compatible with Umucyo?"
+      ],
+      "responses": [
+        "To access the Umucyo system, you need a computer system with a minimum of Pentium IV configuration or higher, an internet connection, and a Windows operating system. You also need a modern web browser such as Chrome, Firefox, or Internet Explorer. The system may allow you to view pages, but full functionality including login and digital signature may not work as intended on older or incompatible systems.",
+        "The technical requirements for using Umucyo are a computer with Pentium IV or higher configuration, Windows operating system, an active internet connection, and a web browser such as Chrome, Firefox, or Internet Explorer. Ensure your system meets these specifications to enjoy full functionality of the platform.",
+        "Accessing Umucyo requires a computer with a minimum of Pentium IV configuration and a Windows operating system. You must also have an internet connection and a web browser like Chrome, Firefox, or Internet Explorer. These are the basic requirements for using the system and ensuring full compatibility.",
+        "To ensure seamless use of the Umucyo system, make sure your computer has at least a Pentium IV configuration, is running a Windows operating system, and has an active internet connection. You will also need a modern web browser such as Chrome, Firefox, or Internet Explorer for optimal performance."
+      ]
+    },
+    {
+      "tag": "registration_UMUCYO",
+      "patterns": [
+        "How do I get registered on the Umucyo e-Procurement Portal?",
+        "Can you explain the registration process for Umucyo e-Procurement Portal?",
+        "What are the steps to register on Umucyo e-Procurement Portal?",
+        "How can I become a registered supplier on Umucyo e-Procurement Portal?",
+        "What do I need to do to register on Umucyo e-Procurement Portal?",
+        "How do I start the process of registering as a supplier on Umucyo e-Procurement Portal?"
+      ],
+      "responses": [
+        "To register on the Umucyo e-Procurement Portal, follow these steps: \n1. Go to the Umucyo homepage at umucyo.gov.rw. \n2. Click on the Supplier Registration link. \n3. Fill out the online registration form. \n4. You will need to possess a digital certificate, which you will be asked to browse to during the registration process. \n5. Submit the registration form and wait for approval from the Umucyo registration administrator. \n6. Once approved, you can use your registered certificate to log in. \n7. As a final step, you will need to register your user and map it with the digital certificate obtained from GovCA. \nIf you need assistance, you can call the toll-free number 3131 for support.",
+        "Umucyo e-Procurement Portal is a platform for suppliers to register and participate in procurement processes. To become a registered supplier, you need to follow these steps: \n1. Go to the Umucyo homepage at umucyo.gov.rw. \n2. Click on the Supplier Registration link. \n3. Fill out the online registration form. \n4. You will need to possess a digital certificate, which you will be asked to browse to during the registration process. \n5. Submit the registration form and wait for approval from the Umucyo registration administrator. \n6. Once approved, you can use your registered certificate to log in. \n7. As a final step, you will need to register your user and map it with the digital certificate obtained from GovCA. \nIf you need assistance, you can call the toll-free number 3131 for support."
+      ]
+    },
+    {
+      "tag": "documentations_UMUCYO",
+      "patterns": [
+        "How can I obtain a digital certificate at Umucyo?",
+        "Where do i get college writing essay at Umucyo?",
+        "What is the link to the college writing essay at Umucyo?"
+      ],
+      "responses": [
+        "Visit <a href=\"www.govca.rw\">here</a> then apply for Digital certificate for e-procurement system."
+      ]
+    },
+    {
+      "tag": "tender_UMUCYO",
+      "patterns": [
+        "How to see opened tenders on Umucyo?",
+        "Where do you get Home on Umucyo?",
+        "What is the link to get to Home at Umucyo?",
+        "How do you get to Home at Umucyo?"
+      ],
+      "responses": [
+        "visit >> https://www.umucyo.rw"
+      ]
+    },
+    {
+      "tag": "About_link_RPPA",
+      "patterns": [
+        "Guide me to About RPPA?",
+        "Where do you get About RPPA?",
+        "What is the link to the About RPPA?",
+        "How do you get About RPPA?",
+        "Who is in Charge of About RPPA?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rppa.gov.rw/"
+      ]
+    },
+    {
+      "tag": "ACESS_UMUCYO",
+      "patterns": [
+        "How can I use UMUCYO system?",
+        "What are the steps to access UMUCYO e-Procurement system?",
+        "How do I start using UMUCYO e-Procurement portal?",
+        "What is the process to use UMUCYO e-Procurement system?",
+        "Can you explain the procedure to access UMUCYO system?"
+      ],
+      "responses": [
+        "You can access UMUCYO e-Procurement system by visiting www.umucyo.gov.rw. To help understand how to use the system, you can also check out the Help Menu for user guides.",
+        "To use the UMUCYO e-Procurement portal, simply go to www.umucyo.gov.rw. You can also refer to the Help Menu for more information on how to use the system.",
+        "The first step to accessing the UMUCYO e-Procurement system is to visit the website at www.umucyo.gov.rw. You may find more information and support on how to use the system in the Help Menu."
+      ]
+    },
+    {
+      "tag": "RPPA",
+      "patterns": [
+        "Guide me to RPPA ?",
+        "Where do you get RPPA Functions?",
+        "What is the link to the RPPA Functions?",
+        "How do you get RPPA Functions?",
+        "Who is in Charge of RPPA Functions?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rppa.gov.rw/"
+      ]
+    },
+    {
+      "tag": "law_related_orders_RRPA",
+      "patterns": [
+        "Guide me to RPPA Law and Related Orders?",
+        "Where do you get RPPA Law and Related Orders?",
+        "What is the link to the RPPA Law and Related Orders?",
+        "How do you get RPPA Law and Related Orders?",
+        "Who is in Charge of RPPA Law and Related Orders?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rppa.gov.rw/"
+      ]
+    },
+    {
+      "tag": "regional_international_partnerships_RRPA",
+      "patterns": [
+        " What are the steps to change Categories of the Companies in Public procurement at RPPA?",
+        "Where do you get Regional and International Partnerships at RPPA?",
+        "What is the link to the Regional and International Partnerships at RPPA?",
+        "How do you get Regional and International Partnerships at RPPA?"
+      ],
+      "responses": [
+        "You can use this >> link https://www.rrpa.gov"
+      ]
+    },
+    {
+      "tag": "about_RPPA",
+      "patterns": [
+        "What does RPPA do?",
+        "What is the role of RPPA?",
+        "What is the function of RPPA?",
+        "What is the purpose of RPPA?",
+        "Can you tell me about RPPA?"
+      ],
+      "responses": [
+        "The Rwanda Public Procurement Authority (RPPA) is a government agency responsible for managing the procurement process in a fair, transparent, and competitive manner. The RPPA ensures that public procurement is conducted in accordance with the law and regulations, and provides support and guidance to its clients and stakeholders.",
+        "RPPA is responsible for ensuring that public procurement is carried out in a manner that is consistent with the principles of fairness, transparency, and competition, and is committed to promoting good governance and accountability in procurement practices."
+      ]
+    },
+    {
+      "tag": "services_RRPA",
+      "patterns": [
+        "illustrate more RPPA services ?",
+        "what other RPPA services are there?",
+        "can you tell me about RPPA services?",
+        "what does RPPA service include?",
+        "what services does RPPA provide?",
+        "I would like to know more about RPPA services",
+        "could you explain RPPA services in more detail?",
+        "could you provide information on RPPA services?",
+        "what can RPPA services offer?",
+        "what kind of services does RPPA provide?"
+      ],
+      "responses": [
+        "RPPA stands for Rwanda Public Procurement Authority, which is responsible for providing procurement services to the government of Rwanda. Their services include procurement planning, contract management, supplier management, and performance evaluation, among others.You can use this link  href info@rppa.gov.rw ,or Toll free:3131  for more informations"
+      ]
+    },
+    {
+      "tag": "consumer_rights_bligations_RRPA",
+      "patterns": [
+        "Guide me to Consumer Rights and Obligations at RPPA?",
+        "Where do you get Consumer Rights and Obligations at RPPA?",
+        "What is the link to the Consumer Rights and Obligations at RPPA?",
+        "How do you get Consumer Rights and Obligations at RPPA?",
+        "Who is in Charge of Consumer Rights and Obligations RPPA?"
+      ],
+      "responses": [
+        "You can use this link >>  href info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "complaints_handling_procedures_RRPA",
+      "patterns": [
+        "Guide me to Complaints Handling Procedures at RPPA?",
+        "Where do you get Complaints Handling Procedures at RPPA?",
+        "What is the link to the Complaints Handling Procedures at RPPA?",
+        "How do you get Complaints Handling Procedures at RPPA?",
+        "Who is in Charge of Complaints Handling Procedures at RPPA?"
+      ],
+      "responses": [
+        "You can use this link >> info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "consumer-awareness_educational_tools_RRPA",
+      "patterns": [
+        "Guide me to Consumer Awareness and Educational tools at RPPA?",
+        "Where do you get Consumer Awareness and Educational tools at RPPA?",
+        "What is the link to the Consumer Awareness and Educational tools at RPPA?",
+        "How do you get Consumer Awareness and Educational tools at RPPA?",
+        "Who is in Charge of Consumer Awareness and Educational tools at RPPA?"
+      ],
+      "responses": [
+        "You can use this link >> info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "Laws_regulations_RRPA",
+      "patterns": [
+        "Guide me to Laws and Regulations at RPPA?",
+        "Where do you get Laws and Regulations at RPPA?",
+        "What is the link to the Laws and Regulations at RPPA?",
+        "How do you get Laws and Regulations at RPPA?",
+        "Who is in Charge of Laws and Regulations at RPPA?"
+      ],
+      "responses": [
+        "You can use this lin >> info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "strategic_plan_RRPA",
+      "patterns": [
+        "Guide me to RPPA Strategic Plan 2022-2027?",
+        "Where do you get RPPA Strategic Plan 2022-2027?",
+        "What is the link to the RPPA Strategic Plan 2022-2027?",
+        "How do you get RPPA Strategic Plan 2022-2027?"
+      ],
+      "responses": [
+        "You can use this link >> info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "FAQs_RRPA",
+      "patterns": [
+        "Guide me to RPPA FAQs?",
+        "Where do you get RPPA FAQs?",
+        "What is the link to the RPPA FAQs?",
+        "How do you get RPPA FAQs?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rppa.gov.rw/faqs"
+      ]
+    },
+    {
+      "tag": "updates_RRPA",
+      "patterns": [
+        "Guide me to RPPA updates?",
+        "Where do you get RPPA Updates?",
+        "What is the link to the RPPA updates?",
+        "How do you get RPPA updates?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rppa.gov.rw/updates/announcement"
+      ]
+    },
+    {
+      "tag": "Overview_RRPA",
+      "patterns": [
+        "Guide me to RPPA  Overview?",
+        "Where do you get  RPPA Overview?",
+        "What is the link to  RPPA  Overview?",
+        "How do you get RPPA  Overview?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "subsectors_services_RRPA",
+      "patterns": [
+        "Guide me to Sub-Sectors and RPPA Services?",
+        "Where do you get Sub-Sectors and RPPA Services?",
+        "What is the link to the Sub-Sectors and RPPA Services?",
+        "How do you get Sub-Sectors and RPPA Services?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rppa.gov.rw/services"
+      ]
+    },
+    {
+      "tag": "resources_management_monitoring_RRPA",
+      "patterns": [
+        "Guide me to RPPA Scarce Resources Management and Monitoring?",
+        "Where do you get RPPA Scarce Resources Management and Monitoring?",
+        "What is the link to the RPPA Scarce Resources Management and Monitoring?",
+        "How do you get RPPA Scarce Resources Management and Monitoring?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "standards_quality_service_RRPA",
+      "patterns": [
+        "Guide me to RPPA Standards and Quality of Service?",
+        "Where do you get RPPA Standards and Quality of Service?",
+        "What is the link to the RPPA Standards and Quality of Service?",
+        "How do you get RPPA Standards and Quality of Service?",
+        "Who is in Charge of RPPA Standards and Quality of Service?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "media_regulation_RRPA",
+      "patterns": [
+        "How does the RPPA regulate public procurement in Rwanda?",
+        "Where do you get to RPPA ICT Media Regulation?",
+        "What is the link to to RPPA the ICT Media Regulation?",
+        "How do i get to RPPA ICT Media Regulation?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "regulatory_instruments",
+      "patterns": [
+        "Guide me to RPPA Regulatory Instruments?",
+        "Where do you get RPPA Regulatory Instruments?",
+        "What is the link to RPPA the Regulatory Instruments?",
+        "How do I get RPPA Regulatory Instruments?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "laws_orders_RRPA",
+      "patterns": [
+        "Guide me to RPPA Laws and Orders?",
+        "Where do you get RPPA Laws and Orders?",
+        "What is the link to RPPA the Laws and Orders?",
+        "How do i get RPPA Laws and Orders?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "regulations_guidelines_RRPA",
+      "patterns": [
+        "Guide me to RPPA Regulations and Guidelines?",
+        "Where do you get RPPA Regulations and Guidelines?",
+        "What is the link to RPPA the Regulations and Guidelines?",
+        "How do i get RPPA Regulations and Guidelines?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "board_decisions_RRPA",
+      "patterns": [
+        "Guide me to RPPA Board Decisions?",
+        "Where do you get RPPA Board Decisions?",
+        "What is the link to RPPA the Board Decisions?",
+        "How do i get RPPA Board Decisions?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "PROCUREMENT_PROCESS_RRPA",
+      "patterns": [
+        "Can you explain the procurement process overseen by the RPPA?",
+        "Where do i get RPPA Other documents?",
+        "What is the link to RPPA the Other documents?",
+        "How do i get RPPA Other documents?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.info@rppa.gov.rw"
+      ]
+    },
+    {
+      "tag": "transiparency_RRPA",
+      "patterns": [
+        "What measures does the RPPA have in place to ensure transparency in public procurement?",
+        "Where do you get RPPA Statistics?",
+        "What is the link to RPPA the Statistics?",
+        "How do i get RPPA Statistics?"
+      ],
+      "responses": [
+        "The establishment, maintenance and improvement of sound public procurement systems are critical responsibilities of governments throughout the world."
+      ]
+    },
+    {
+      "tag": "Rwanda_ONline_EProcurement_System_RRPA",
+      "patterns": [
+        "Can you describe the steps for registering as a supplier with the RPPA",
+        "Where do you get RPPA Monthly Publication?",
+        "What is the link to RPPA the Monthly Publication?",
+        "How do i get RPPA Monthly Publication?"
+      ],
+      "responses": [
+        "By registering on www.umucyo.rw, you agree to be bound by all commercial and electronic laws and regulations in force in Rwanda, especially the following"
+      ]
+    },
+    {
+      "tag": "Complaints_Handling_Procedures_RRPA",
+      "patterns": [
+        "How does the RPPA handle complaints or disputes related to public procurement?",
+        "Where do you get RPPA Quarterly publication?",
+        "What is the link to RPPA the Quarterly publication?",
+        "How do i get RPPA Quarterly publication?"
+      ],
+      "responses": [
+        "The establishment, maintenance and improvement of sound public procurement systems are critical responsibilities of governments throughout the world or visit Services >> RPPAhttps://www.rppa.gov.rw ."
+      ]
+    },
+    {
+      "tag": "local_promotion_RRPA",
+      "patterns": [
+        "What is the role of the RPPA in promoting local content in public procurement?",
+        "Where do i get RPPA Sector Reports?",
+        "What is the link to RPPA the Sector Reports?",
+        "How do i get RPPA Sector Reports?"
+      ],
+      "responses": [
+        "To advise the government and other public procurement organs on the policies, strategies and organization of public procurement; To monitor activities of public contract award and execution.or visit www.rppa.gov"
+      ]
+    },
+    {
+      "tag": "principles_RRPA",
+      "patterns": [
+        "What are the principles of public procurement in Rwanda for RPPA?",
+        "Where do you get RPPA Radiation Protection?",
+        "What is the link to RPPA the Radiation Protection?",
+        "How do you get RPPA Radiation Protection?"
+      ],
+      "responses": [
+        "As part of public financial management reforms, the Government of Rwanda has been engaged in a number of initiatives aimed at streamlining its public procurement system in order to align it with fundamental principles of transparency, competition, economy, effective, efficient and fast work, fairness and accountability"
+      ]
+    },
+    {
+      "tag": "in_full_RPPA",
+      "patterns": [
+        "What does  RPPA stand for?",
+        "Where do you get RPPA Law Governing Radiation protection?",
+        "What is the link to RPPA the Law Governing Radiation protection?",
+        "How do i get RPPA Law Governing Radiation protection?"
+      ],
+      "responses": [
+        "Reduced Pressure Principle Assembly (RPPA)"
+      ]
+    },
+    {
+      "tag": "challenges_RPPA",
+      "patterns": [
+        "What are the RPPA challenges of public procurement in Rwanda??",
+        "Where do you get RPPA Regulations and Guidelines?",
+        "What is the link to RPPA the Regulations and Guidelines?",
+        "How do i get RPPA Regulations and Guidelines?"
+      ],
+      "responses": [
+        "Some the challenges included: inconvenient business registration; inaccurate management information & analytics; lack of one-stop procurement portal; and inefficient document and records management system"
+      ]
+    },
+    {
+      "tag": "Online_Services_RPPA",
+      "patterns": [
+        "Guide me to RPPA All Online Services?",
+        "Where do you get RPPA All Online Services?",
+        "What is the link to RPPA the All Online Services?",
+        "How do i get RPPA All Online Services?"
+      ],
+      "responses": [
+        "The E-Procurement System automates the public procurement process and enables the interactions. Explore More <a href=\"https://www.rppa.gov.rw\">here</a> ›"
+      ]
+    },
+    {
+      "tag": "Online_Services_RURA",
+      "patterns": [
+        "give me a link of RURA Online Services.",
+        "how to get RURA Online Services?",
+        "how can i find RURA Online Services?",
+        "Where do you get RURA Online Services?",
+        "What is the link to the RURA Online Services?",
+        "How do you get RURA Online Services?",
+        "Guide me to RURA Online Services?"
+      ],
+      "responses": [
+        "you can use this <a href=\"https://licensing.rura.rw/\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"https://licensing.rura.rw/\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Driver_Vocational_Card_RURA",
+      "patterns": [
+        "give me a link of RURA Driver Vocational Card (DVC).",
+        "how to get RURA Driver Vocational Card (DVC)?",
+        "how can i find RURA Driver Vocational Card (DVC)?",
+        "Where do you get RURA Driver Vocational Card (DVC)?",
+        "What is the link to the RURA Driver Vocational Card (DVC)?",
+        "How do you get RURA Driver Vocational Card (DVC)?",
+        "Guide me to RURA Driver Vocational Card (DVC)?"
+      ],
+      "responses": [
+        "you can use this <a href=\"https://dvc.rura.rw/\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"https://dvc.rura.rw/\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Consumer_Complaint_RURA",
+      "patterns": [
+        "give me a link of RURA Consumer Complaint.",
+        "how to get RURA Consumer Complaint?",
+        "how can i find RURA Consumer Complaint?",
+        "Where do you get RURA Consumer Complaint?",
+        "What is the link to the RURA Consumer Complaint?",
+        "How do you get RURA Consumer Complaint?",
+        "Guide me to RURA Consumer Complaint?"
+      ],
+      "responses": [
+        "you can use this <a href=\"https://licensing.rura.rw/customer/complaint/form\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"https://licensing.rura.rw/customer/complaint/form\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Type_Approved_Devices_RURA",
+      "patterns": [
+        "give me a link of RURA Type Approved Devices.",
+        "how to get RURA Type Approved Devices?",
+        "how can i find RURA Type Approved Devices?",
+        "Where do you get RURA Type Approved Devices?",
+        "What is the link to the RURA Type Approved Devices?",
+        "How do you get RURA Type Approved Devices?",
+        "Guide me to RURA Type Approved Devices?"
+      ],
+      "responses": [
+        "you can use this <a href=\"https://licensing.rura.rw/type-approval/search-devices\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"https://licensing.rura.rw/type-approval/search-devices\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "RURA_IMEI_Verification_System_RURA",
+      "patterns": [
+        "give me a link of RURA IMEI Verification System.",
+        "how to get RURA IMEI Verification System?",
+        "how can i find RURA IMEI Verification System?",
+        "Where do you get RURA IMEI Verification System?",
+        "What is the link to the RURA IMEI Verification System?",
+        "How do you get RURA IMEI Verification System?",
+        "Guide me to RURA IMEI Verification System?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/tcrplus/\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/tcrplus/\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Annual_reports_RURA",
+      "patterns": [
+        "give me a link of RURA Annual reports.",
+        "how to get RURA Annual reports?",
+        "how can i find RURA Annual reports?",
+        "Where do you get RURA Annual reports?",
+        "What is the link to the RURA Annual reports?",
+        "How do you get RURA Annual reports?",
+        "Guide me to RURA Annual reports?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=213\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=213\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Tariffs_RURA",
+      "patterns": [
+        "give me a link of RURA Tariffs.",
+        "how to get RURA Tariffs?",
+        "how can i find RURA Tariffs?",
+        "Where do you get RURA Tariffs?",
+        "What is the link to the RURA Tariffs?",
+        "How do you get RURA Tariffs?",
+        "Guide me to RURA Tariffs?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=288\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=288\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Statistics_RURA",
+      "patterns": [
+        "give me a link of RURA Statistics.",
+        "how to get RURA Statistics?",
+        "how can i find RURA Statistics?",
+        "Where do you get RURA Statistics?",
+        "What is the link to the RURA Statistics?",
+        "How do you get RURA Statistics?",
+        "Guide me to RURA Statistics?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=276\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=276\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Revoked_Licenses_RURA",
+      "patterns": [
+        "give me a link of RURA Revoked Licenses.",
+        "how to get RURA Revoked Licenses?",
+        "how can i find RURA Revoked Licenses?",
+        "Where do you get RURA Revoked Licenses?",
+        "What is the link to the RURA Revoked Licenses?",
+        "How do you get RURA Revoked Licenses?",
+        "Guide me to RURA Revoked Licenses?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=287\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=287\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Key_ICT_Documents_RURA",
+      "patterns": [
+        "give me a link of RURA Key ICT Documents.",
+        "how to get RURA Key ICT Documents?",
+        "how can i find RURA Key ICT Documents?",
+        "Where do you get RURA Key ICT Documents?",
+        "What is the link to the RURA Key ICT Documents?",
+        "How do you get RURA Key ICT Documents?",
+        "Guide me to RURA Key ICT Documents?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=211\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=211\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Consumer_Affairs_RURA",
+      "patterns": [
+        "give me a link of RURA Consumer Affairs.",
+        "how to get RURA Consumer Affairs?",
+        "how can i find RURA Consumer Affairs?",
+        "Where do you get RURA Consumer Affairs?",
+        "What is the link to the RURA Consumer Affairs?",
+        "How do you get RURA Consumer Affairs?",
+        "Guide me to RURA Consumer Affairs?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=279\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=279\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Regulation_Guidelines_RURA",
+      "patterns": [
+        "give me a link of RURA Regulations and Guidelines.",
+        "how to get RURA Regulations and Guidelines?",
+        "how can i find RURA Regulations and Guidelines?",
+        "Where do you get RURA Regulations and Guidelines?",
+        "What is the link to the RURA Regulations and Guidelines?",
+        "How do you get RURA Regulations and Guidelines?",
+        "Guide me to RURA Regulations and Guidelines?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=207\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=207\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Board_Decisions_RURA",
+      "patterns": [
+        "give me a link of RURA Board Decisions.",
+        "how to get RURA Board Decisions?",
+        "how can i find RURA Board Decisions?",
+        "Where do you get RURA Board Decisions?",
+        "What is the link to the RURA Board Decisions?",
+        "How do you get RURA Board Decisions?",
+        "Guide me to RURA Board Decisions?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=208\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=208\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Regulations_Consultation_RURA",
+      "patterns": [
+        "give me a link of RURA Regulations for Consultation.",
+        "how to get RURA Regulations for Consultation?",
+        "how can i find RURA Regulations for Consultation?",
+        "Where do you get RURA Regulations for Consultation?",
+        "What is the link to the RURA Regulations for Consultation?",
+        "How do you get RURA Regulations for Consultation?",
+        "Guide me to RURA Regulations for Consultation?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=291\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=291\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "FAQs_RURA",
+      "patterns": [
+        "give me a link of RURA FAQs.",
+        "how to get RURA FAQs?",
+        "how can i find RURA FAQs?",
+        "Where do you get RURA FAQs?",
+        "What is the link to the RURA FAQs?",
+        "How do you get RURA FAQs?",
+        "Guide me to RURA FAQs?"
+      ],
+      "responses": [
+        "you can use this <a href=\"http://www.rura.rw/index.php?id=217\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"http://www.rura.rw/index.php?id=217\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "Tweets_RURA",
+      "patterns": [
+        "give me a link of Tweets by RURA_RWANDA.",
+        "how to get Tweets by RURA_RWANDA?",
+        "how can i find Tweets by RURA_RWANDA?",
+        "Where do you get Tweets by RURA_RWANDA?",
+        "What is the link to the Tweets by RURA_RWANDA?",
+        "How do you get Tweets by RURA_RWANDA?",
+        "Guide me to Tweets by RURA_RWANDA?"
+      ],
+      "responses": [
+        "you can use this <a href=\"https://twitter.com/RURA_RWANDA\" target=\"_blank\">link</a> for more info.",
+        "Here is the <a href=\"https://twitter.com/RURA_RWANDA\" target=\"_blank\">link</a>."
+      ]
+    },
+    {
+      "tag": "FAQs_RRA",
+      "patterns": [
+        "what is procedures to RRA Frequently Asked Questions?",
+        "where do I find RRA Frequently Asked Questions?",
+        "I want to know about RRA Frequently Asked Questions?",
+        "what is RRA Frequently Asked Questions?",
+        "what is link of RRA Frequently Asked Questions?",
+        "Guide me to RRA Frequently Asked Questions?",
+        "Where do you get RRA Frequently Asked Questions?",
+        "What is the link to the RRA Frequently Asked Questions?",
+        "How do you get RRA Frequently Asked Questions?",
+        ""
+      ],
+      "responses": "Find a list of frequently asked questions and their answers by this link <a href=\"https://www.rra.gov.rw/en/domestic-tax-services/faqs\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Investors_Starter_Pack_RRA",
+      "patterns": [
+        "what is procedures to RRA Investors Starter Pack?",
+        "where do I find RRA Investors Starter Pack?",
+        "I want to know about RRA Investors Starter Pack?",
+        "what is RRA Investors Starter Pack?",
+        "what is link of RRA Investors Starter Pack?",
+        "Guide me to RRA Investors Starter Pack?",
+        "Where do you get RRA Investors Starter Pack?",
+        "What is the link to the RRA Investors Starter Pack?",
+        "How do you get RRA Investors Starter Pack?",
+        ""
+      ],
+      "responses": "All you need to know about investing in Rwanda, and a contact list for immediate assistance. by this link <a href=\"https://www.rra.gov.rw/en/domestic-tax-services/investors-starter-pack\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Registration_Deregistration_RRA",
+      "patterns": [
+        "what is procedures to RRA Registration and De-registration?",
+        "where do I find RRA Registration and De-registration?",
+        "I want to know about RRA Registration and De-registration?",
+        "what is RRA Registration and De-registration?",
+        "what is link of RRA Registration and De-registration?",
+        "Guide me to RRA Registration and De-registration?",
+        "Where do you get RRA Registration and De-registration?",
+        "What is the link to the RRA Registration and De-registration?",
+        "How do you get RRA Registration and De-registration?",
+        ""
+      ],
+      "responses": "All you need  to know about business registration and de-registration by this link <a href=\"https://www.rra.gov.rw/en/domestic-tax-services/registration-de-registration\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Income_Tax_RRA",
+      "patterns": [
+        "what is procedures to RRA Income Tax ?",
+        "where do I find RRA Income Tax ?",
+        "I want to know about RRA Income Tax ?",
+        "what is RRA Income Tax ?",
+        "what is link of RRA Income Tax ?",
+        "Guide me to RRA Income Tax ?",
+        "Where do you get RRA Income Tax ?",
+        "What is the link to the RRA Income Tax ?",
+        "How do you get RRA Income Tax ?",
+        ""
+      ],
+      "responses": "Here you will find more about Personal Income Tax and Corporate Income Tax computation and declaration process. by this link <a href=\"https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/income-tax\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Electronic_Billing_Machine_RRA",
+      "patterns": [
+        "what is procedures to RRA Electronic Billing Machine?",
+        "where do I find RRA Electronic Billing Machine?",
+        "I want to know about RRA Electronic Billing Machine?",
+        "what is RRA Electronic Billing Machine?",
+        "what is link of RRA Electronic Billing Machine?",
+        "Guide me to RRA Electronic Billing Machine?",
+        "Where do you get RRA Electronic Billing Machine?",
+        "What is the link to the RRA Electronic Billing Machine?",
+        "How do you get RRA Electronic Billing Machine?",
+        ""
+      ],
+      "responses": "All you need to know about electronic invoicing solutions (EBM) by this link <a href=\"https://www.rra.gov.rw/en/ebm-electronic-billing-machine\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "RSSB_RRA",
+      "patterns": [
+        "what is procedures to RRA RSSB?",
+        "where do I find RRA RSSB?",
+        "I want to know about RRA RSSB?",
+        "what is RRA RSSB?",
+        "what is link of RRA RSSB?",
+        "Guide me to RRA RSSB?",
+        "Where do you get RRA RSSB?",
+        "What is the link to the RRA RSSB?",
+        "How do you get RRA RSSB?",
+        ""
+      ],
+      "responses": "Here you will find out more about Pension scheme and Medical Insurance Schemes by this link <a href=\"https://www.rra.gov.rw/en/domestic-tax-services/rssb\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Consumption_Tax_RRA",
+      "patterns": [
+        "what is procedures to RRA Consumption Tax?",
+        "where do I find RRA Consumption Tax?",
+        "I want to know about RRA Consumption Tax?",
+        "what is RRA Consumption Tax?",
+        "what is link of RRA Consumption Tax?",
+        "Guide me to RRA Consumption Tax?",
+        "Where do you get RRA Consumption Tax?",
+        "What is the link to the RRA Consumption Tax?",
+        "How do you get RRA Consumption Tax?",
+        ""
+      ],
+      "responses": "Find here a list of products subject to consumption tax and their respective rates. by this link <a href=\"https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/consumption-tax\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Value_Added_Tax_RRA",
+      "patterns": [
+        "what is procedures to RRA Value Added Tax?",
+        "where do I find RRA Value Added Tax?",
+        "I want to know about RRA Value Added Tax?",
+        "what is RRA Value Added Tax?",
+        "what is link of RRA Value Added Tax?",
+        "Guide me to RRA Value Added Tax?",
+        "Where do you get RRA Value Added Tax?",
+        "What is the link to the RRA Value Added Tax?",
+        "How do you get RRA Value Added Tax?",
+        ""
+      ],
+      "responses": "More information on VAT registration, computation, exemptions and refund. by this link <a href=\"https://www.rra.gov.rw/en/domestic-tax-services/value-added-tax\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Withholding_Taxes_RRA",
+      "patterns": [
+        "what is procedures to RRA Withholding Taxes?",
+        "where do I find RRA Withholding Taxes?",
+        "I want to know about RRA Withholding Taxes?",
+        "what is RRA Withholding Taxes?",
+        "what is link of RRA Withholding Taxes?",
+        "Guide me to RRA Withholding Taxes?",
+        "Where do you get RRA Withholding Taxes?",
+        "What is the link to the RRA Withholding Taxes?",
+        "How do you get RRA Withholding Taxes?",
+        ""
+      ],
+      "responses": "You can find key information about withholding taxes - types of withholding tax, dividends, penalties and interests. by this link <a href=\"https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/withholding-taxes\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "District_Revenues_RRA",
+      "patterns": [
+        "what is procedures to RRA District Revenues?",
+        "where do I find RRA District Revenues?",
+        "I want to know about RRA District Revenues?",
+        "what is RRA District Revenues?",
+        "what is link of RRA District Revenues?",
+        "Guide me to RRA District Revenues?",
+        "Where do you get RRA District Revenues?",
+        "What is the link to the RRA District Revenues?",
+        "How do you get RRA District Revenues?",
+        ""
+      ],
+      "responses": "Here are further specifics on immovable property tax, rental income tax, trade license tax, fees and charges by this link <a href=\"https://www.rra.gov.rw/en/district-revenues\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Motor_Vehicle_Services_RRA",
+      "patterns": [
+        "what is procedures to RRA Motor Vehicle Services?",
+        "where do I find RRA Motor Vehicle Services?",
+        "I want to know about RRA Motor Vehicle Services?",
+        "what is RRA Motor Vehicle Services?",
+        "what is link of RRA Motor Vehicle Services?",
+        "Guide me to RRA Motor Vehicle Services?",
+        "Where do you get RRA Motor Vehicle Services?",
+        "What is the link to the RRA Motor Vehicle Services?",
+        "How do you get RRA Motor Vehicle Services?",
+        ""
+      ],
+      "responses": "Key information about motor vehicle ownership transfer,  request for a lost yellow card, etc by this link <a href=\"https://www.rra.gov.rw/en/motor-vehicle-services\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Other_Services_RRA",
+      "patterns": [
+        "what is procedures to RRA Other Services?",
+        "where do I find RRA Other Services?",
+        "I want to know about RRA Other Services?",
+        "what is RRA Other Services?",
+        "what is link of RRA Other Services?",
+        "Guide me to RRA Other Services?",
+        "Where do you get RRA Other Services?",
+        "What is the link to the RRA Other Services?",
+        "How do you get RRA Other Services?",
+        ""
+      ],
+      "responses": "Details on other services provided by RRA such as Tax Clearance Certificates and Quitus Fiscal. by this link <a href=\"https://www.rra.gov.rw/en/domestic-tax-services/other-services\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Valuation_Gateway_RRA",
+      "patterns": [
+        "what is procedures to RRA Valuation Gateway?",
+        "where do I find RRA Valuation Gateway?",
+        "I want to know about RRA Valuation Gateway?",
+        "what is RRA Valuation Gateway?",
+        "what is link of RRA Valuation Gateway?",
+        "Guide me to RRA Valuation Gateway?",
+        "Where do you get RRA Valuation Gateway?",
+        "What is the link to the RRA Valuation Gateway?",
+        "How do you get RRA Valuation Gateway?",
+        ""
+      ],
+      "responses": "Find here customs value for used Motor vehicles, and other commodities. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/valuation-gateway\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Border_Posts_RRA",
+      "patterns": [
+        "what is procedures to RRA Border Posts?",
+        "where do I find RRA Border Posts?",
+        "I want to know about RRA Border Posts?",
+        "what is RRA Border Posts?",
+        "what is link of RRA Border Posts?",
+        "Guide me to RRA Border Posts?",
+        "Where do you get RRA Border Posts?",
+        "What is the link to the RRA Border Posts?",
+        "How do you get RRA Border Posts?",
+        ""
+      ],
+      "responses": "RRA customs offices countrywide by this link <a href=\"https://www.rra.gov.rw/en/customs-services/border-posts\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Forms_RRA",
+      "patterns": [
+        "what is procedures to RRA Forms?",
+        "where do I find RRA Forms?",
+        "I want to know about RRA Forms?",
+        "what is RRA Forms?",
+        "what is link of RRA Forms?",
+        "Guide me to RRA Forms?",
+        "Where do you get RRA Forms?",
+        "What is the link to the RRA Forms?",
+        "How do you get RRA Forms?",
+        ""
+      ],
+      "responses": "Here you will find the application forms for licensing bonded warehouses and vehicles. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/forms\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Exporters_RRA",
+      "patterns": [
+        "what is procedures to RRA Exporters?",
+        "where do I find RRA Exporters?",
+        "I want to know about RRA Exporters?",
+        "what is RRA Exporters?",
+        "what is link of RRA Exporters?",
+        "Guide me to RRA Exporters?",
+        "Where do you get RRA Exporters?",
+        "What is the link to the RRA Exporters?",
+        "How do you get RRA Exporters?",
+        ""
+      ],
+      "responses": "More clarification on export procedures by this link <a href=\"https://www.rra.gov.rw/en/customs-services/exporters\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Importers_RRA",
+      "patterns": [
+        "what is procedures to RRA Importers?",
+        "where do I find RRA Importers?",
+        "I want to know about RRA Importers?",
+        "what is RRA Importers?",
+        "what is link of RRA Importers?",
+        "Guide me to RRA Importers?",
+        "Where do you get RRA Importers?",
+        "What is the link to the RRA Importers?",
+        "How do you get RRA Importers?",
+        ""
+      ],
+      "responses": "If you have any queries about temporary importation, Import procedures, and rules of origin, please click here. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/importers\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "EAC_Customs_Union_RRA",
+      "patterns": [
+        "what is procedures to RRA EAC Customs Union?",
+        "where do I find RRA EAC Customs Union?",
+        "I want to know about RRA EAC Customs Union?",
+        "what is RRA EAC Customs Union?",
+        "what is link of RRA EAC Customs Union?",
+        "Guide me to RRA EAC Customs Union?",
+        "Where do you get RRA EAC Customs Union?",
+        "What is the link to the RRA EAC Customs Union?",
+        "How do you get RRA EAC Customs Union?",
+        ""
+      ],
+      "responses": "Access all legislation under the customs union in the East African Community. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/eac-customs-union\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Travelers_RRA",
+      "patterns": [
+        "what is procedures to RRA Travelers?",
+        "where do I find RRA Travelers?",
+        "I want to know about RRA Travelers?",
+        "what is RRA Travelers?",
+        "what is link of RRA Travelers?",
+        "Guide me to RRA Travelers?",
+        "Where do you get RRA Travelers?",
+        "What is the link to the RRA Travelers?",
+        "How do you get RRA Travelers?",
+        ""
+      ],
+      "responses": "Here you will find information on baggage and personal effects of passengers, allowances, and prohibited goods. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/travelers\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Cargo_Management_RRA",
+      "patterns": [
+        "what is procedures to RRA Cargo Management?",
+        "where do I find RRA Cargo Management?",
+        "I want to know about RRA Cargo Management?",
+        "what is RRA Cargo Management?",
+        "what is link of RRA Cargo Management?",
+        "Guide me to RRA Cargo Management?",
+        "Where do you get RRA Cargo Management?",
+        "What is the link to the RRA Cargo Management?",
+        "How do you get RRA Cargo Management?",
+        ""
+      ],
+      "responses": "All you need to know about cargo and warehouse management by this link <a href=\"https://www.rra.gov.rw/en/customs-services/cargo-management\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Transit_Regime_RRA",
+      "patterns": [
+        "what is procedures to RRA Transit Regime?",
+        "where do I find RRA Transit Regime?",
+        "I want to know about RRA Transit Regime?",
+        "what is RRA Transit Regime?",
+        "what is link of RRA Transit Regime?",
+        "Guide me to RRA Transit Regime?",
+        "Where do you get RRA Transit Regime?",
+        "What is the link to the RRA Transit Regime?",
+        "How do you get RRA Transit Regime?",
+        ""
+      ],
+      "responses": "Process and procedures for goods under transit regime. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/transit-regime\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Postal_Services_RRA",
+      "patterns": [
+        "what is procedures to RRA Postal Services?",
+        "where do I find RRA Postal Services?",
+        "I want to know about RRA Postal Services?",
+        "what is RRA Postal Services?",
+        "what is link of RRA Postal Services?",
+        "Guide me to RRA Postal Services?",
+        "Where do you get RRA Postal Services?",
+        "What is the link to the RRA Postal Services?",
+        "How do you get RRA Postal Services?",
+        ""
+      ],
+      "responses": "Process and procedures to export via post office. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/postal-services\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Licensing_Agents_RRA",
+      "patterns": [
+        "what is procedures to RRA Licensing of Agents?",
+        "where do I find RRA Licensing of Agents?",
+        "I want to know about RRA Licensing of Agents?",
+        "what is RRA Licensing of Agents?",
+        "what is link of RRA Licensing of Agents?",
+        "Guide me to RRA Licensing of Agents?",
+        "Where do you get RRA Licensing of Agents?",
+        "What is the link to the RRA Licensing of Agents?",
+        "How do you get RRA Licensing of Agents?",
+        ""
+      ],
+      "responses": "This section contains the process and procedures for clearing agencies licensing. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/licencing-of-agents\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Customs_Reforms_RRA",
+      "patterns": [
+        "what is procedures to RRA Customs Reforms?",
+        "where do I find RRA Customs Reforms?",
+        "I want to know about RRA Customs Reforms?",
+        "what is RRA Customs Reforms?",
+        "what is link of RRA Customs Reforms?",
+        "Guide me to RRA Customs Reforms?",
+        "Where do you get RRA Customs Reforms?",
+        "What is the link to the RRA Customs Reforms?",
+        "How do you get RRA Customs Reforms?",
+        ""
+      ],
+      "responses": "Find some reforms introduced in customs to facilitate international trade. by this link <a href=\"https://www.rra.gov.rw/en/customs-services/custom-reforms\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Tax_Laws_RRA",
+      "patterns": [
+        "what is procedures to RRA Tax Laws?",
+        "where do I find RRA Tax Laws?",
+        "I want to know about RRA Tax Laws?",
+        "what is RRA Tax Laws?",
+        "what is link of RRA Tax Laws?",
+        "Guide me to RRA Tax Laws?",
+        "Where do you get RRA Tax Laws?",
+        "What is the link to the RRA Tax Laws?",
+        "How do you get RRA Tax Laws?",
+        ""
+      ],
+      "responses": "Get access to all tax laws, rulings and other tax procedures. by this link <a href=\"https://www.rra.gov.rw/en/laws-policies-and-rulings\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Tax_Handbook_Brochures_RRA",
+      "patterns": [
+        "what is procedures to RRA Tax Handbook and Brochures ?",
+        "where do I find RRA Tax Handbook and Brochures ?",
+        "I want to know about RRA Tax Handbook and Brochures ?",
+        "what is RRA Tax Handbook and Brochures ?",
+        "what is link of RRA Tax Handbook and Brochures ?",
+        "Guide me to RRA Tax Handbook and Brochures ?",
+        "Where do you get RRA Tax Handbook and Brochures ?",
+        "What is the link to the RRA Tax Handbook and Brochures ?",
+        "How do you get RRA Tax Handbook and Brochures ?",
+        ""
+      ],
+      "responses": "Summarized information about taxes and a simplified guide to understanding the tax laws and procedures by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=792&cHash=f29ec8bd4b53158cd3ef2e8bc46798a7\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Tax_statistics_RRA",
+      "patterns": [
+        "what is procedures to RRA RRA Tax statistics?",
+        "where do I find RRA RRA Tax statistics?",
+        "I want to know about RRA RRA Tax statistics?",
+        "what is RRA RRA Tax statistics?",
+        "what is link of RRA RRA Tax statistics?",
+        "Guide me to RRA RRA Tax statistics?",
+        "Where do you get RRA RRA Tax statistics?",
+        "What is the link to the RRA RRA Tax statistics?",
+        "How do you get RRA RRA Tax statistics?",
+        ""
+      ],
+      "responses": "You have access to all Tax Statistics from 2015, officially published by RRA. by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=793&cHash=7b7ad43895168d50a761e48888902c1d\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Research_Reports_RRA",
+      "patterns": [
+        "what is procedures to RRA RRA Research Reports?",
+        "where do I find RRA RRA Research Reports?",
+        "I want to know about RRA RRA Research Reports?",
+        "what is RRA RRA Research Reports?",
+        "what is link of RRA RRA Research Reports?",
+        "Guide me to RRA RRA Research Reports?",
+        "Where do you get RRA RRA Research Reports?",
+        "What is the link to the RRA RRA Research Reports?",
+        "How do you get RRA RRA Research Reports?",
+        ""
+      ],
+      "responses": "Research reports carried out by the Tax Administration are published here. by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=794&cHash=4cd473510a78c7a91963185013873f91\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Income_Tax_Annex_Tutorial_FAQ_RRA",
+      "patterns": [
+        "what is procedures to RRA Income Tax Annex Tutorial and FAQ?",
+        "where do I find RRA Income Tax Annex Tutorial and FAQ?",
+        "I want to know about RRA Income Tax Annex Tutorial and FAQ?",
+        "what is RRA Income Tax Annex Tutorial and FAQ?",
+        "what is link of RRA Income Tax Annex Tutorial and FAQ?",
+        "Guide me to RRA Income Tax Annex Tutorial and FAQ?",
+        "Where do you get RRA Income Tax Annex Tutorial and FAQ?",
+        "What is the link to the RRA Income Tax Annex Tutorial and FAQ?",
+        "How do you get RRA Income Tax Annex Tutorial and FAQ?",
+        ""
+      ],
+      "responses": "Here you will find information related to Income Tax Taxpayer annexes by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=795&cHash=69b42dc7620ff7dfc0f26fdb40fdd3cb\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Service_Charter_ ",
+      "patterns": [
+        "what is procedures to RRA RRA Service Charter III ?",
+        "where do I find RRA RRA Service Charter III ?",
+        "I want to know about RRA RRA Service Charter III ?",
+        "what is RRA RRA Service Charter III ?",
+        "what is link of RRA RRA Service Charter III ?",
+        "Guide me to RRA RRA Service Charter III ?",
+        "Where do you get RRA RRA Service Charter III ?",
+        "What is the link to the RRA RRA Service Charter III ?",
+        "How do you get RRA RRA Service Charter III ?",
+        ""
+      ],
+      "responses": "Here is a catalogue of our services, requirements, cost, and time taken to deliver by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1057&cHash=e3aaf59a7b34def0311958711ded0a20\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Annual_Reports_RRA",
+      "patterns": [
+        "what is procedures to RRA RRA Annual Reports?",
+        "where do I find RRA RRA Annual Reports?",
+        "I want to know about RRA RRA Annual Reports?",
+        "what is RRA RRA Annual Reports?",
+        "what is link of RRA RRA Annual Reports?",
+        "Guide me to RRA RRA Annual Reports?",
+        "Where do you get RRA RRA Annual Reports?",
+        "What is the link to the RRA RRA Annual Reports?",
+        "How do you get RRA RRA Annual Reports?",
+        ""
+      ],
+      "responses": "You can easily access our performance annual report since 2015. by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1100&cHash=d8753b85361829b7738e82dfdd9fb9e4\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "EAC_GAZETTE_RRA",
+      "patterns": [
+        "what is procedures to RRA EAC GAZETTE ?",
+        "where do I find RRA EAC GAZETTE ?",
+        "I want to know about RRA EAC GAZETTE ?",
+        "what is RRA EAC GAZETTE ?",
+        "what is link of RRA EAC GAZETTE ?",
+        "Guide me to RRA EAC GAZETTE ?",
+        "Where do you get RRA EAC GAZETTE ?",
+        "What is the link to the RRA EAC GAZETTE ?",
+        "How do you get RRA EAC GAZETTE ?",
+        ""
+      ],
+      "responses": "Download for free EAC Gazettes for your reference. by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1101&cHash=93fe9b91b67760be948732fb3c7ab70f\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Strategic_Plans_Action_Plans_RRA",
+      "patterns": [
+        "what is procedures to RRA RRA Strategic Plans and Action Plans ?",
+        "where do I find RRA RRA Strategic Plans and Action Plans ?",
+        "I want to know about RRA RRA Strategic Plans and Action Plans ?",
+        "what is RRA RRA Strategic Plans and Action Plans ?",
+        "what is link of RRA RRA Strategic Plans and Action Plans ?",
+        "Guide me to RRA RRA Strategic Plans and Action Plans ?",
+        "Where do you get RRA RRA Strategic Plans and Action Plans ?",
+        "What is the link to the RRA RRA Strategic Plans and Action Plans ?",
+        "How do you get RRA RRA Strategic Plans and Action Plans ?",
+        ""
+      ],
+      "responses": "Get access to our strategic and action plan since 2015. by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1103&cHash=26d2ef3e80718872ddd0c8fc5dc73045\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "Double_Taxation_Agreement_RRA ",
+      "patterns": [
+        "what is procedures to RRA Double Taxation Agreement ?",
+        "where do I find RRA Double Taxation Agreement ?",
+        "I want to know about RRA Double Taxation Agreement ?",
+        "what is RRA Double Taxation Agreement ?",
+        "what is link of RRA Double Taxation Agreement ?",
+        "Guide me to RRA Double Taxation Agreement ?",
+        "Where do you get RRA Double Taxation Agreement ?",
+        "What is the link to the RRA Double Taxation Agreement ?",
+        "How do you get RRA Double Taxation Agreement ?",
+        ""
+      ],
+      "responses": "Find a series of Double Taxation Agreements for your reference. by this link <a href=\"https://www.rra.gov.rw/en/publications?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1105&cHash=f71e9bc7ede752e64679f8c39e73871c\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "RDB_Definition",
+      "patterns": "What is RDB?",
+      "responses": "The Rwanda Development Board (RDB) is a Rwandan Government agency charged with fast-tracking the economic development of Rwanda. For investors, it is the gateway to all the investment opportunities offered by Rwanda and a strong partner to help decide on and implement each investment project."
+    },
+    {
+      "tag": "RDB_Services",
+      "patterns": "What services does RDB provide?",
+      "responses": "RDB provides advice, information and assistance on all matters relating to investment including helping with the investor\u2019s initial visit to Rwanda. In addition RDB offers a wide range of investor services including; Business Registration\nBusiness and investment facilitation\nIssuance of Investment Certificates that will facilitate in starting your business\nNotary services to newly registered investors\nAccess to information on location factors and business opportunities\nImmigration services For more information about our services, please contact us directly or visit our website <a href=\"http://www.rdb.rw\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "RDB_foreignInvestor",
+      "patterns": "Who is a foreign investor for RDB in Rwanda?",
+      "responses": "A foreign investor in Rwanda (referring to the Investment Code) is any legal entity investing a minimum startup capital of $250.000USD for overseas citizens and $100,000 for locals and members from the East African Community and COMESA states. This enables the investor to apply for an investment certificate"
+    },
+    {
+      "tag": "RDB_foreignInvestorTreated",
+      "patterns": "Are investors treated the same as local investors in Rwanda at RDB?",
+      "responses": "Yes, overseas investors are offered the same opportunities and services. Overseas investors are particularly welcomed to participate in the continued growth of the Rwandan economy."
+    },
+    {
+      "tag": "RDB_InvestmentOpportunities",
+      "patterns": "What are some of the investment opportunities available in Rwanda at RDB?",
+      "responses": "Rwanda has a wide range of investment opportunities to offer to investors. Our major focus has majorly relied on key priority sectors of investment that include; infrastructure, agriculture, energy, tourism, business services, ICT, real estate and construction, Financial Services, Mining, Education, Health and General Manufacturing. To find out more, please contact us by telephone or by email on\u00a0info@rdb.rw\u00a0and we will be delighted to respond quickly to your enquiry."
+    },
+    {
+      "tag": "RDB_howLongToregister",
+      "patterns": "How long does it take to register my company/ investment business in Rwanda at RDB?",
+      "responses": "It only takes six (6) hours to register your business in Rwanda. Starting a business in Rwanda requires 2 simple steps; First step:\u00a0approval of a company name and submitting application . Second Step:\u00a0Obtaining a Certificate of incorporation.\r"
+    },
+    {
+      "tag": "RDB_docsRequiredToregister",
+      "patterns": " What are some of the important documents needed before I can register my business in Rwanda?",
+      "responses": "Domestic Company Registration\n\nCopy of ID/Passport\nComplete two copies of Memorandum of Association Art 14 (downloaded on our website\u00a0here)\n\nOpening a branch/ Foreign Company\n\nPower of attorney to present the company in Rwanda.(Notarised)\nA duly authenticated copy of the memorandum Articles of Association. (Notarised)\nCertificate of Registration/Incorporation issued by the registration authority in the country of incorporation. (Notarised)\nNotarised resolution from the authorized agency authorizing to open a branch.\nPassport copies of the shareholders/directors.\nList of directors residing in Rwanda (atleast One) For more information about business registration please visit this <a href=\"http://org.rdb.rw/\" target=\"_blank\">Link</a> or <a href=\"http://rwanda.eregulations.org\" target=\"_blank\">Here</a>"
+    },
+    {
+      "tag": "RDB_feesToregister",
+      "patterns": "Are there any fees charged to register my business in Rwanda at RDB?",
+      "responses": "No, it's free. "
+    },
+    {
+      "tag": "RDB_howLongTogetVisa",
+      "patterns": "How long does it take to obtain a visa in Rwanda? Where do I go to?",
+      "responses": "It only takes three working days to get a Rwandan Visa for an online application or through a Rwandan High Commission or Consular office. A tracking number will be issued which will later on be used to obtain the visa. Please contact the nearest Rwandan Embassy/ Consular office for further details.  You may also visit this<a href=\"http://www.migration.gov.rw\" target=\"_blank\">link for more information</a>"
+    },
+    {
+      "tag": "RDB_getLandinRwanda",
+      "patterns": "Can I get land in Rwanda for my project at RDB?",
+      "responses": "Yes land can easily be obtained for projects and this is done in two ways; Privately purchasing land from the private sector RDB can apply for public sector land on your behalf of the investor for special considerations to cabinet, should RDB deem the project to be significant business or strategic importance"
+    },
+    {
+      "tag": "RDB_CostofLandinRwanda",
+      "patterns": "What is the cost of land in Rwanda at RDB?",
+      "responses": "There is no fixed price for land in Rwanda; this entirely depends on the location and the bargaining power between the buyer and the land owner."
+    },
+    {
+      "tag": "RDB_exchangeofRwandaCurr/dollar",
+      "patterns": "What is the exchange rate of the dollar against your local currency at RDB?",
+      "responses": "To obtain the latest exchange rates for major currencies against the Rwandan Franc, please <a href=\"http://www.bnr.rw\" target=\"_blank\">visit for more details.</a>"
+    },
+    {
+      "tag": "RDB_internationOffices",
+      "patterns": " Does RDB have regional or international offices that can facilitate in providing more information?",
+      "responses": "Yes the Rwanda Development Board has regional and international offices that will help provide information to investors. RDB offices in North America (Canada), China (Shenzhen), and Turkey (Istanbul). Advice and help can also be obtained from the Commercial Attaches, in each Rwandan Embassy/ Consular office abroad. <a href=\"http://www.embassy.gov.rw\" target=\"_blank\">Link</a>"
+    },
+    {
+      "tag": "RDB_Address",
+      "patterns": [
+        "What is RDB address?",
+        "Where does RDB located?",
+        "Where can I find RRDBDB?"
+      ],
+      "responses": [
+        "We are located at: KG 220 St, Kigali, Gishushu | Kigali | Rwanda,P.O. Box 6239 Kigali, Rwanda"
+      ]
+    },
+    {
+      "tag": "RDB_Contact",
+      "patterns": [
+        "What is RDB contact?",
+        "how can I reach RDB?",
+        "What is RDB phone number",
+        "what is RDB P.O. Box?"
+      ],
+      "responses": [
+        "Cell Center (Local): 1415 \nCell Center (International): +250 727775170\nWhatsApp: +250 788321555"
+      ]
+    },
+    {
+      "tag": "RDB_About",
+      "patterns": [
+        "What is RDB?",
+        "Tell me about RDB?",
+        "What does RDB do?"
+      ],
+      "responses": [
+        "Rwanda Development Board (RDB) is a government institution mandated to accelerate Rwanda’s economic development by enabling private sector growth, offering services such as business and investment registration, visa facilitation, EIA, tax incentives management, etc., Investment Promotion, Investment Deals Negotiation, Export & SEZ Development, Tourism and Conservation, and Private Sector Skills Development."
+      ]
+    },
+    {
+      "tag": "RDB_IndustrialPropertyRights",
+      "patterns": [
+        "What are RDB different types of industrial property rights?",
+        "Can you list RDB various industrial property rights?",
+        "What does RDB industrial property rights cover?"
+      ],
+      "responses": [
+        "Industrial property rights are divided into patents of invention, utility model certificates, industrial designs and models, layout designs (topographies) of integrated circuits, marks, collective marks, certification marks, trade names, and geographical indications."
+      ]
+    },
+    {
+      "tag": "RDB_Vision",
+      "patterns": [
+        "What is RDB's vision?",
+        "What is RDB's mission?",
+        "What is RDB's goal?"
+      ],
+      "responses": [
+        "RDB's vision is to be a world-class investment promotion agency that facilitates the growth of a globally competitive private sector in Rwanda. RDB's mission is to accelerate Rwanda's economic development by enabling private sector growth. RDB's goal is to attract and facilitate investment in Rwanda."
+      ]
+    },
+    {
+      "tag": "RDB_CopyrightCategories",
+      "patterns": [
+        "What are RDB different types of copyrights?",
+        "What categories RDB works are protected by copyrights?",
+        "Can you give me a list of RDB copyrightable works?",
+        "Are there specific categories of RDB works protected by copyrights?",
+        "What are the classifications of RDB copyright works?"
+      ],
+      "responses": [
+        "Copyrights are divided into the following categories: Literary works, Musical works, Computer programs, Dramatic and Dramatico-musical works, Choreographic works, Audiovisual works, Works of fine art (such as drawing, painting, sculpture, lithography, tapestry), Works of architecture, Photographic works, Works of applied art, Illustrations, Maps, Plains, Sketches and 3-D works related to geography, topography, architecture or science, and Works of Rwandan folklore."
+      ]
+    },
+    {
+      "tag": "RDB_CEO",
+      "patterns": [
+        "Who is the CEO of RDB?",
+        "Who is the head of RDB?",
+        "Who leads RDB?",
+        "Can you tell me who the CEO of RDB is?",
+        "Who holds the position of CEO at RDB?",
+        "Who is at the helm of RDB?",
+        "Who is in charge of RDB?",
+        "Who is the top executive at RDB?",
+        "Who is responsible for overseeing RDB?",
+        "Who is the person in charge of RDB's operations?",
+        "Who holds the top post at RDB?"
+      ],
+      "responses": [
+        "Clare Akamanzi is the Chief Executive Officer of RDB."
+      ]
+    },
+    {
+      "tag": "RDB_CIO",
+      "patterns": [
+        "Who is the Chief Investment Officer of RDB?"
+      ],
+      "responses": [
+        "Philip Lucky is the Ag. Chief Investment Officer of RDB."
+      ]
+    },
+    {
+      "tag": "RDB_CEO",
+      "patterns": [
+        "Who is the Chief Skills Officer of RDB?"
+      ],
+      "responses": [
+        "Elodie Rusera is the Chief Skills Officer of RDB."
+      ]
+    },
+    {
+      "tag": "RDB_ChiefTourismOfficer",
+      "patterns": [
+        "Who is the Chief Tourism Officer of RDB?"
+      ],
+      "responses": [
+        "Michaella Rugwizangoga is the Chief Tourism Officer of RDB."
+      ]
+    },
+    {
+      "tag": "RDB_ChiefFinancialOfficer",
+      "patterns": [
+        "Who is the Chief Financial Officer of RDB?"
+      ],
+      "responses": [
+        "Joseph Cedrick Nsengiyumva is the Chief Financial Officer of RDB."
+      ]
+    },
+    {
+      "tag": "RDB_ChiefStrategyandComplianceOfficer",
+      "patterns": [
+        "Who is the Chief Strategy and Compliance Officer of RDB?"
+      ],
+      "responses": [
+        "Richard Kayibanda is the Ag. Chief Strategy and Compliance Officer of RDB."
+      ]
+    },
+    {
+      "tag": "RDB_Contact",
+      "patterns": [
+        "How can I contact RDB?",
+        "What is the contact information of RDB?",
+        "What is RDB's phone number?"
+      ],
+      "responses": [
+        "You can contact RDB at the following address: Rwanda Development Board (RDB), KG 220 St, Kigali, Gishushu | Kigali | Rwanda. P.O. Box 6239 Kigali, Rwanda. Hotline: Cell Center (Local): 1415, Cell Center (International): +250 727775170, WhatsApp: +250 788321555 (From 7AM to 11PM Kigali Time (GMT+2)). E-mail: For general enquiries: info@rdb.rw, For investment related queries: investorfeedback@rdb.rw"
+      ]
+    },
+    {
+      "tag": "RDB_VisaApplicationProcess",
+      "patterns": [
+        "How to apply for a visa in Rwanda?",
+        "What is the process for obtaining a Rwandan visa?",
+        "How long does it take to get a visa in Rwanda?",
+        "Is the visa application process online?",
+        "Can I track my visa application status?"
+      ],
+      "responses": [
+        "It only takes three working days to get a Rwandan Visa for an online application or through a Rwandan High Commission or Consular office. A tracking number will be issued which will later on be used to obtain the visa. Please contact the nearest Rwandan Embassy/ Consular office for further details. You may also visit this <a href=\"http://www.migration.gov.rw\" target=\"_blank\">link</a>"
+      ]
+    },
+    {
+      "tag": "RDB_Services",
+      "patterns": [
+        "What services does RDB offer?",
+        "What does RDB do?",
+        "What are the services offered by RDB?"
+      ],
+      "responses": [
+        "RDB offers the following services: Investment Promotion, Investment Deals Negotiation, Export & SEZ Development, Tourism and Conservation, and Private Sector Skills Development."
+      ]
+    },
+    {
+      "tag": "RDB_InvestmentPromotion",
+      "patterns": [
+        "What is RDB's investment promotion strategy?"
+      ],
+      "responses": [
+        "RDB's investment promotion strategy is to attract and facilitate investment in Rwanda. RDB's investment promotion strategy is to attract and facilitate investment in Rwanda."
+      ]
+    },
+    {
+      "tag": "RDB_InternshipProgram",
+      "patterns": [
+        "What is the RDB Internship Program?",
+        "What are the requirements for the RDB Internship Program?",
+        "How can I apply for the RDB Internship Program?"
+      ],
+      "responses": [
+        "The RDB Internship Program is designed to equip interns with practical skills, reinforce practical capacity, develop professionalism, positive work ethics and employability skills, and provide work experience. It is open to all Rwandan fresh graduates from HLIs, TVET (IPRCs) in Rwanda or from abroad, in need of employability skills and professional experience. To apply, applicants should fill out the online form on the RDB website or approach the RDB Internship Office or call 1415 for support. The required documents are a copy of the degree. or use this <a href=\"https://kora.rw/internship/internship/internshipinternapplication\" target=\"_blank\">link</a>"
+      ]
+    },
+    {
+      "tag": "RDB_Vision_and_Mission",
+      "patterns": [
+        "What is the vision of the RDB?",
+        "What is the mission of the RDB?",
+        "What are the objectives of the RDB?"
+      ],
+      "responses": [
+        "The vision of the RDB is to transform Rwanda into a dynamic global hub for business, investment, and innovation. The mission is to fast-track economic development in Rwanda by enabling private sector growth. The objective is to make RDB a remarkable institution."
+      ]
+    },
+    {
+      "tag": "RDB_Investment_Opportunities",
+      "patterns": [
+        "What types of investments are available with the RDB?",
+        "What are some of the investment opportunities with the RDB?",
+        "What sectors do the RDB offer investment opportunities in?"
+      ],
+      "responses": [
+        "RDB offers investment opportunities in Manufacturing, Agro-Processing, Tourism, Real estate and construction, ICT, Services, Mining, Infrastructure, Tourism, Energy, Health Services, and Education."
+      ]
+    },
+    {
+      "tag": "RDB_Eservices",
+      "patterns": [
+        "What are the available e-services offered by RDB?",
+        "Can I access RDB services online?",
+        "What online services does RDB provide?",
+        "How do I access RDB e-services?"
+      ],
+      "responses": [
+        "use this <a href=\"https://rdb.rw/e-services/\" target=\"_blank\">link</a>"
+      ]
+    },
+    {
+      "tag": "RDB_Investment_Deals",
+      "patterns": [
+        "What is the investment deals negotiation strategy of the RDB?"
+      ],
+      "responses": [
+        "The investment deals negotiation strategy of the RDB is to attract and facilitate investment in Rwanda."
+      ]
+    },
+    {
+      "tag": "RDB_Export_and_SEZ",
+      "patterns": [
+        "What is the export and SEZ development strategy of the RDB?"
+      ],
+      "responses": [
+        "The export and SEZ development strategy of the RDB is to attract and facilitate investment in Rwanda."
+      ]
+    },
+    {
+      "tag": "RDB_Tourism_and_Conservation",
+      "patterns": [
+        "What is the tourism and conservation strategy of the RDB?"
+      ],
+      "responses": [
+        "The tourism and conservation strategy of the RDB is to attract and facilitate investment in Rwanda."
+      ]
+    },
+    {
+      "tag": "RDB_Private_Sector_Skills",
+      "patterns": [
+        "What is the private sector skills development strategy of the RDB?"
+      ],
+      "responses": [
+        "The private sector skills development strategy of the RDB is to attract and facilitate investment in Rwanda."
+      ]
+    },
+    {
+      "tag": "RDB_Investment_Promotion",
+      "patterns": [
+        "What is the investment promotion strategy of the RDB?"
+      ],
+      "responses": [
+        "The investment promotion strategy of the RDB is to attract and facilitate investment in Rwanda."
+      ]
+    },
+    {
+      "tag": "RDB_Registering a company or business",
+      "patterns": [
+        "How do I go about registering a business in Rwanda?",
+        "What documents do I need to submit for registering a business in Rwanda?",
+        "How can I register a company?",
+        "How can I register a business?",
+        "What is the process of registering a business in Rwanda?",
+        "Can you guide me through the process of registering a business in Rwanda?",
+        "Is it possible to register a business online in Rwanda?",
+        "Are there any RDB offices I can visit to register my business?",
+        "Is there a support number I can call to register a business in Rwanda?",
+        "What is the timeline for registering a business in Rwanda?",
+        "What are the costs involved in registering a business in Rwanda?",
+        "What happens after I register my business in Rwanda?"
+      ],
+      "responses": [
+        "use this <a href=\"https://brs.rdb.rw/busregonline\" target=\"_blank\">link</a>"
+      ]
+    },
+    {
+      "tag": "RDB_Requirements_Registering_Company",
+      "patterns": [
+        "What are the requirements for registering a company in Rwanda?"
+      ],
+      "responses": [
+        "An active email address",
+        "ID card or passport",
+        "Certificate of Incorporation and Articles of association (foreign companies) for corporate entity shareholder(s); a foreign company registration necessitatesa shareholder/board resolution to open up a branch and appointment of branch representative residing in Rwanda",
+        "Company name",
+        "Provisional business activities",
+        "Office Address"
+      ]
+    },
+    {
+      "tag": "RDB_RequirementsRegisteringNGOAssociationCooperative",
+      "patterns": [
+        "What are the requirements for registering an NGO, Association or a Cooperative in Rwanda?"
+      ],
+      "responses": [
+        "They will be requested evidence of registration at Rwanda Governance Board or Rwanda Cooperatives Agency as well as Board resolution to open up a business Shareholders particulars Board members particulars Directors particulars",
+        "Defense and Investigation activities are registered upon presentation of official authorization from the National Police"
+      ]
+    },
+    {
+      "tag": "RDB_FillingAnnualReturns",
+      "patterns": [
+        "How do I fill annual returns at RDB?",
+        "What are the RDB requirements for filling annual returns?",
+        "What are the RDB steps to fill annual returns?"
+      ],
+      "responses": [
+        "Domestic companies with a turnover of less than 400000000",
+        "Income statements and statement of financial position",
+        "Resolutions for amendment if any Domestic companies with a turn over 400000000 and above Income statements",
+        "Statement of financial position",
+        "Statement of cash flow",
+        "Statement of change in equity",
+        "Financial statement notes Auditors and/or directors report",
+        "Resolutions for an amendment if any Holding Companies Income statements",
+        "Consolidated Income statements",
+        "Consolidated Statement of financial position",
+        "Consolidated Statement of cash flow",
+        "Consolidated Statement of change in equity",
+        "Financial statements notes",
+        "Auditors report",
+        "Resolutions for amendment",
+        "Foreign Companies Income statements",
+        "Statement of financial position",
+        "Statement of cash flow",
+        "Statement of change in equity",
+        "Financial statements notes",
+        "Auditors report"
+      ]
+    },
+    {
+      "tag": "RDB_EventsConferences",
+      "patterns": [
+        "What kind of events and conferences does RDB organize?",
+        "What are the topics covered in RDB's events and conferences?",
+        "What are the benefits of attending RDB's events and conferences?"
+      ],
+      "responses": [
+        "RDB regularly organizes events and conferences to provide a platform for businesses, investors, and entrepreneurs to network, learn about new developments, and explore investment opportunities. These events cover a wide range of topics, including economic development, investment, business growth, entrepreneurship, tourism, and skills development."
+      ]
+    },
+    {
+      "tag": "RDB_TradeInvestmentMissions",
+      "patterns": [
+        "What are RDB's trade and investment missions?",
+        "What are the benefits of participating in RDB's missions?"
+      ],
+      "responses": [
+        "RDB organizes trade and investment missions to connect Rwandan businesses with potential investors and partners. The aim is to showcase Rwanda's investment opportunities, promote Rwandan products and services, and facilitate business relationships."
+      ]
+    },
+    {
+      "tag": "RDB_FeeCostTariffs",
+      "patterns": [
+        "What is the fee for Trade Mark registration in Rwanda?",
+        "How much does it cost to register a Trade Name in Rwanda?",
+        "What are the fees for Collective Mark & Certification Mark registration in Rwanda?",
+        "What is the cost of obtaining a Patent of Invention in Rwanda?",
+        "What is the fee for Utility Model registration in Rwanda?",
+        "How much does it cost to register an Industrial Design in Rwanda?",
+        "What is the fee for registering a Geographical Indication in Rwanda?",
+        "What are the fees for Layout Design & Integrated Circuit registration in Rwanda?",
+        "How much does it cost to conduct a search for Trade Marks, Trade Names, Collective Marks & Certification Marks, Patents of Invention, Utility Model Fees, Industrial Designs, Geographical Indications, Layout Designs & Integrated Circuits in Rwanda?"
+      ],
+      "responses": [
+        "use this <a href=\"https://org.rdb.rw/intellectual-property-rights/fee-tariffs/\" target=\"_blank\">link</a>"
+      ]
+    },
+    {
+      "tag": "RDB_CopyrightApplication",
+      "patterns": [
+        "How do I apply for a copyright?",
+        "How can I get a copyright?",
+        "What is the process for obtaining a copyright?",
+        "Can I apply for a copyright online?",
+        "How long does it take to get a copyright?",
+        "What is required to apply for a copyright?",
+        "What types of works can be copyrighted?",
+        "How much does it cost to apply for a copyright?",
+        "What happens after I submit a copyright application?",
+        "Is it necessary to register a copyright?",
+        "What is the difference between copyright registration and copyright protection?"
+      ],
+      "responses": [
+        "Use this <a href=\"https://org.rdb.rw/intellectual-property-rights/application-forms/\" target=\"_blank\">link</a>"
+      ]
+    },
+    {
+      "tag": "RDB_LandAvailabilityforProjects",
+      "patterns": [
+        "Can I get land for my project in Rwanda?",
+        "How to obtain land for a project in Rwanda?",
+        "What are the two ways to get land for a project in Rwanda?",
+        "Can RDB help me get land for my project?"
+      ],
+      "responses": [
+        "Yes land can easily be obtained for projects and this is done in two ways; Privately purchasing land from the private sector or RDB can apply for public sector land on your behalf of the investor for special considerations to cabinet, should RDB deem the project to be of significant business or strategic importance."
+      ]
+    },
+    {
+      "tag": "RDB_LandCostRwanda",
+      "patterns": [
+        "How much does land cost in Rwanda?",
+        "Is there a fixed price for land in Rwanda?",
+        "What factors determine the cost of land in Rwanda?"
+      ],
+      "responses": [
+        "There is no fixed price for land in Rwanda; this entirely depends on the location and the bargaining power between the buyer and the land owner."
+      ]
+    },
+    {
+      "tag": "RDB_established?",
+      "patterns": [
+        "When was the founding of RDB?",
+        "When was RDB established as an organization?",
+        "What year was RDB established?",
+        "When did RDB come into existence?",
+        "When was RDB created?",
+        "What is the establishment date of RDB?",
+        "Can you tell me when RDB was founded?",
+        "What was the year of RDB's establishment?",
+        "Can you provide information on when RDB was established?",
+        "Can you give the establishment year of RDB?"
+      ],
+      "responses": [
+        "RDB was established in 2008"
+      ]
+    },
+    {
+      "tag": "RSSB_Items",
+      "patterns": [
+        "Which items does RSSB have?",
+        "What kinds of items are at RSSB?",
+        "What does RSSB sell?"
+      ],
+      "responses": [
+        "RSSB sells coffee and tea",
+        "RSSB has coffee and tea"
+      ]
+    },
+    {
+      "tag": "RSSB_payments",
+      "patterns": [
+        "Does RSSB take credit cards?",
+        "Does RSSB accept Mastercard?",
+        "Does RSSB accept Paypal?",
+        "is RSSB accept cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "RSSB_delivery",
+      "patterns": [
+        "How long does delivery take at RSSB?",
+        "How long does shipping take at RSSB?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "RSSB_home",
+      "patterns": [
+        "Guide me to RSSB home?",
+        "Where do you get RSSB home?",
+        "What is the link to the RSSB home",
+        "How do you get RSSB home?",
+        "How does RSSB home works?",
+        "How can i get RSSB home?",
+        "Who is the RSSB home?",
+        "What is the RSSB home?",
+        "Show me RSSB home",
+        "How long did it take to have RSSB home",
+        "How do i apply for RSSB home?",
+        "Who is in Charge of RSSB home?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/"
+      ]
+    },
+    {
+      "tag": "RSSB_schemes",
+      "patterns": [
+        "Guide me to RSSB schemes?",
+        "Where do you get RSSB schemes?",
+        "What is the link to RSSB the schemes?",
+        "How do you get RSSB schemes?",
+        "How does RSSB schemes works?",
+        "How can i get RSSB schemes?",
+        "Who is the RSSB schemes?",
+        "What is the RSSB schemes?",
+        "Show me RSSB schemes",
+        "How long did it take to have RSSB schemes",
+        "How do i apply for RSSB schemes?",
+        "Who is in Charge of RSSB schemes?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/#schemes"
+      ]
+    },
+    {
+      "tag": "RSSB_investment",
+      "patterns": [
+        "Guide me to RSSB investment?",
+        "Where do you get RSSB investment?",
+        "What is the link to the RSSB investment?",
+        "How do you get RSSB investment?",
+        "How does RSSB investment works?",
+        "How can i get RSSB investment?",
+        "Who is the RSSB investment?",
+        "What is the RSSB investment?",
+        "Show me RSSB investment",
+        "How long did it take to have RSSB investment",
+        "How do i apply for RSSB investment?",
+        "Who is in Charge of RSSB investment?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/investment"
+      ]
+    },
+    {
+      "tag": "RSSB_management",
+      "patterns": [
+        "Guide me to RSSB management?",
+        "Where do you get RSSB management?",
+        "What is the link to the RSSB management?",
+        "How do you get RSSB management?",
+        "How does RSSB management works?",
+        "How can i get RSSB management?",
+        "Who is the RSSB management?",
+        "What is the RSSB management?",
+        "Show me RSSB management",
+        "How long did it take to have RSSB management",
+        "How do i apply for R RSSBSSB management?",
+        "Who is in Charge of RSSB management?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/management"
+      ]
+    },
+    {
+      "tag": "RSSB_about",
+      "patterns": [
+        "Guide me to RSSB about?",
+        "Where do you get RSSB about?",
+        "What is the link to the RSSB about?",
+        "How do you get RSSB about?",
+        "How does RSSB about works?",
+        "How can i get RSSB about?",
+        "Who is the RSSB about?",
+        "What is the RSSB about?",
+        "Show me RSSB about",
+        "How long did it take to have RSSB about",
+        "How do i apply for RSSB about?",
+        "Who is in Charge of RSSB about?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/aboutus"
+      ]
+    },
+    {
+      "tag": "RSSB_careers",
+      "patterns": [
+        "Guide me to RSSB careers?",
+        "Where do you get RSSB careers?",
+        "What is the link to the RSSB careers?",
+        "How do you get RSSB careers?",
+        "How does careers RSSB works?",
+        "How can i get RSSB careers?",
+        "Who is the RSSB careers?",
+        "What is the RSSB careers?",
+        "Show me RSSB RSSB careers",
+        "How long did it take to have RSSB careers",
+        "How do i apply for RSSB careers?",
+        "Who is in Charge of RSSB careers?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/careers"
+      ]
+    },
+    {
+      "tag": "RSSB_NewsEvents",
+      "patterns": [
+        "Guide me to RSSB news & events?",
+        "Where do you get RSSB news & events?",
+        "What is the link to the RSSB news & events?",
+        "How do you get RSSB news & events?",
+        "How does RSSB news & events works?",
+        "How can i get RSSB news & events?",
+        "Who is the RSSB news & events?",
+        "What is the RSSB news & events?",
+        "Show me RSSB news & events",
+        "How long did it take to have RSSB news & events",
+        "How do i apply for RSSB news & events?",
+        "Who is in Charge of RSSB news & events?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/news"
+      ]
+    },
+    {
+      "tag": "RSSB_MaternityLeaveEnjoy",
+      "patterns": [
+        "Guide me to RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "Where do you get RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "What is the link to the RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "How do you get RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "How does RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more works?",
+        "How can i get RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "Who is the RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "What is the RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "Show me RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more",
+        "How long did it take to have RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more",
+        "How do i apply for RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "Who is in Charge of RSSB Maternity LeaveEnjoy your maternity leave with your full salarylearn more?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/scheme/maternity-leave"
+      ]
+    },
+    {
+      "tag": "RSSB_MedicalScheme",
+      "patterns": [
+        "Guide me to Medical SchemeOur Health, our Futurelearn more?",
+        "Where do you get Medical SchemeOur Health, our Futurelearn more?",
+        "What is the link to the Medical SchemeOur Health, our Futurelearn more?",
+        "How do you get Medical SchemeOur Health, our Futurelearn more?",
+        "How does Medical SchemeOur Health, our Futurelearn more works?",
+        "How can i get Medical SchemeOur Health, our Futurelearn more?",
+        "Who is the Medical SchemeOur Health, our Futurelearn more?",
+        "What is the Medical SchemeOur Health, our Futurelearn more?",
+        "Show me Medical SchemeOur Health, our Futurelearn more",
+        "How long did it take to have Medical SchemeOur Health, our Futurelearn more",
+        "How do i apply for Medical SchemeOur Health, our Futurelearn more?",
+        "Who is in Charge of Medical SchemeOur Health, our Futurelearn more?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/scheme/medical-scheme"
+      ]
+    },
+    {
+      "tag": "RSSB_CBHIScheme",
+      "patterns": [
+        "Guide me to CBHI SchemeGiving you happiness at best ratelearn more?",
+        "Where do you get CBHI SchemeGiving you happiness at best ratelearn more?",
+        "What is the link to the CBHI SchemeGiving you happiness at best ratelearn more?",
+        "How do you get CBHI SchemeGiving you happiness at best ratelearn more?",
+        "How does CBHI SchemeGiving you happiness at best ratelearn more works?",
+        "How can i get CBHI SchemeGiving you happiness at best ratelearn more?",
+        "Who is the CBHI SchemeGiving you happiness at best ratelearn more?",
+        "What is the CBHI SchemeGiving you happiness at best ratelearn more?",
+        "Show me CBHI SchemeGiving you happiness at best ratelearn more",
+        "How long did it take to have CBHI SchemeGiving you happiness at best ratelearn more",
+        "How do i apply for CBHI SchemeGiving you happiness at best ratelearn more?",
+        "Who is in Charge of CBHI SchemeGiving you happiness at best ratelearn more?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/scheme/cbhi-scheme"
+      ]
+    },
+    {
+      "tag": "RSSB_PensionScheme",
+      "patterns": [
+        "Guide me to Pension SchemeRetire with dignitylearn more?",
+        "Where do you get Pension SchemeRetire with dignitylearn more?",
+        "What is the link to the Pension SchemeRetire with dignitylearn more?",
+        "How do you get Pension SchemeRetire with dignitylearn more?",
+        "How does Pension SchemeRetire with dignitylearn more works?",
+        "How can i get Pension SchemeRetire with dignitylearn more?",
+        "Who is the Pension SchemeRetire with dignitylearn more?",
+        "What is the Pension SchemeRetire with dignitylearn more?",
+        "Show me Pension SchemeRetire with dignitylearn more",
+        "How long did it take to have Pension SchemeRetire with dignitylearn more",
+        "How do i apply for Pension SchemeRetire with dignitylearn more?",
+        "Who is in Charge of Pension SchemeRetire with dignitylearn more?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/scheme/pension-scheme"
+      ]
+    },
+    {
+      "tag": "RSSB_OccupationalHazards",
+      "patterns": [
+        "Guide me to Occupational HazardsWe are  here for youlearn more?",
+        "Where do you get Occupational HazardsWe are  here for youlearn more?",
+        "What is the link to the Occupational HazardsWe are  here for youlearn more?",
+        "How do you get Occupational HazardsWe are  here for youlearn more?",
+        "How does Occupational HazardsWe are  here for youlearn more works?",
+        "How can i get Occupational HazardsWe are  here for youlearn more?",
+        "Who is the Occupational HazardsWe are  here for youlearn more?",
+        "What is the Occupational HazardsWe are  here for youlearn more?",
+        "Show me Occupational HazardsWe are  here for youlearn more",
+        "How long did it take to have Occupational HazardsWe are  here for youlearn more",
+        "How do i apply for Occupational HazardsWe are  here for youlearn more?",
+        "Who is in Charge of Occupational HazardsWe are  here for youlearn more?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/scheme/occupational-hazards"
+      ]
+    },
+    {
+      "tag": "ERSSB_ejoHeza",
+      "patterns": [
+        "Guide me to EjoHezaStart early and reap the rewards.learn more?",
+        "Where do you get EjoHezaStart early and reap the rewards.learn more?",
+        "What is the link to the EjoHezaStart early and reap the rewards.learn more?",
+        "How do you get EjoHezaStart early and reap the rewards.learn more?",
+        "How does EjoHezaStart early and reap the rewards.learn more works?",
+        "How can i get EjoHezaStart early and reap the rewards.learn more?",
+        "Who is the EjoHezaStart early and reap the rewards.learn more?",
+        "What is the EjoHezaStart early and reap the rewards.learn more?",
+        "Show me EjoHezaStart early and reap the rewards.learn more",
+        "How long did it take to have EjoHezaStart early and reap the rewards.learn more",
+        "How do i apply for EjoHezaStart early and reap the rewards.learn more?",
+        "Who is in Charge of EjoHezaStart early and reap the rewards.learn more?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rw/scheme/ejo-heza"
+      ]
+    },
+    {
+      "tag": "RSSB_CheckContribution",
+      "patterns": [
+        "Guide me to Check Contribution?",
+        "Where do you get Check Contribution?",
+        "What is the link to the Check Contribution?",
+        "How do you get Check Contribution?",
+        "How does Check Contribution works?",
+        "How can i get Check Contribution?",
+        "Who is the Check Contribution?",
+        "What is the Check Contribution?",
+        "Show me Check Contribution",
+        "How long did it take to have Check Contribution",
+        "How do i apply for Check Contribution?",
+        "Who is in Charge of Check Contribution?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rwhttps://www.imisanzu.rssb.rw/"
+      ]
+    },
+    {
+      "tag": "RSSB_ClearanceCertificate",
+      "patterns": [
+        "Guide me to RSSB Clearance Certificate?",
+        "Where do you get RSSB Clearance Certificate?",
+        "What is the link to the RSSB Clearance Certificate?",
+        "How do you get RSSB Clearance Certificate?",
+        "How does RSSB Clearance Certificate works?",
+        "How can i get RSSB Clearance Certificate?",
+        "Who is the RSSB Clearance Certificate?",
+        "What is the RSSB Clearance Certificate?",
+        "Show me RSSB Clearance Certificate",
+        "How long did it take to have RSSB Clearance Certificate",
+        "How do i apply for RSSB Clearance Certificate?",
+        "Who is in Charge of RSSB Clearance Certificate?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rwhttps://www.rra.gov.rw/fileadmin/user_upload/tcc.html"
+      ]
+    },
+    {
+      "tag": "RSSB_ApplicationEmployeeNumber",
+      "patterns": [
+        "Guide me to Apply for Employee Number?",
+        "Where do you get Apply for Employee Number?",
+        "What is the link to the Apply for Employee Number?",
+        "How do you get Apply for Employee Number?",
+        "How does Apply for Employee Number works?",
+        "How can i get Apply for Employee Number?",
+        "Who is the Apply for Employee Number?",
+        "What is the Apply for Employee Number?",
+        "Show me Apply for Employee Number",
+        "How long did it take to have Apply for Employee Number",
+        "How do i apply for Apply for Employee Number?",
+        "Who is in Charge of Apply for Employee Number?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rwhttps://online.rssb.rw/index1152.php?menu=employer"
+      ]
+    },
+    {
+      "tag": "RSSB_PayEmployeeContributions",
+      "patterns": [
+        "Guide me to Pay Employee Contributions?",
+        "Where do you get Pay Employee Contributions?",
+        "What is the link to the Pay Employee Contributions?",
+        "How do you get Pay Employee Contributions?",
+        "How does Pay Employee Contributions works?",
+        "How can i get Pay Employee Contributions?",
+        "Who is the Pay Employee Contributions?",
+        "What is the Pay Employee Contributions?",
+        "Show me Pay Employee Contributions",
+        "How long did it take to have Pay Employee Contributions",
+        "How do i apply for Pay Employee Contributions?",
+        "Who is in Charge of Pay Employee Contributions?"
+      ],
+      "responses": [
+        "You can use this link >> https://www.rssb.rwhttps://etax.rra.gov.rw/"
+      ]
+    },
+    {
+      "tag": "NIDA_services",
+      "patterns": [
+        "Services offered at NIDA",
+        "What is the range of services available at NIDA?",
+        "What services does NIDA offer?",
+        "What are the services that NIDA provides?",
+        "Can you list the services offered at NIDA?",
+        "What kind of services are available at NIDA?"
+      ],
+      "responses": [
+        "1.Those make Identity Card application. Those who lost their identity card. Diaspora Services. Identity card Correction proceess.Citizen Registration. Special case services(looking for Id card urgently)"
+      ]
+    },
+    {
+      "tag": "NIDA_applicationRequirements",
+      "patterns": [
+        "What are the requirements for obtaining a first identity card?",
+        "What do I need to get my first identity card issued?",
+        "Can you provide a list of the necessary requirements for a first identity card issuance?",
+        "What criteria must be met to receive a first identity card?",
+        "What is the process for getting my first identity card, including the requirements?"
+      ],
+      "responses": [
+        "The Rwandan identity card is issued to a 16-year-old Rwandan, registered in NIDA database (NPR).  Having an application number (code). A document proving her/his identification (school card, insurance card or certificate issued by the Sector (full identity certificate, identity card)). payment of 500Frw using IREMBO (here is the link: irembo.gov.rw/user/citizen/service/nida/application_for_national_id)"
+      ]
+    },
+    {
+      "tag": "NIDA_LostStolenID",
+      "patterns": [
+        "The process of a lost or stolen identity card",
+        "What is the procedure for reporting a lost or stolen identity card?",
+        "Can you explain the process for replacing a lost or stolen identity card?",
+        "How does one go about replacing a lost or stolen identity card?",
+        "What steps are involved in reporting a lost or stolen identity card?",
+        "Could you outline the procedure for dealing with a lost or stolen identity card?"
+      ],
+      "responses": [
+        "Citizens who lost their IDs or those with damaged IDs must report it to the RIB through irembo.gov.rw/user/citizen/service/nida/replacement_of_national_id.After making a notification the citizen receives an SMS or email informing him that his notification has been received.He is immediately given an appointment to report himself at the nearest RIB station. The person who declares that he has lost his ID is given a certificate to replace his ID in the event of his choice. Once RIB has confirmed that the identity card has been lost, the citizen is given a code so that he can proceed his request. Once the citizen has paid, his or her request goes automatically in NIDA system. Once the Registrar of Civil Status has confirmed his / her request, the citizen receives an SMS informing him / her that an ID replacement certificate has been obtained. N.B: Payment is done through irembo."
+      ]
+    },
+    {
+      "tag": "NIDA_DiasporaServices",
+      "patterns": [
+        "How does one go about registering to get Identity card(ID) as a member of the diaspora?",
+        "What is the process for registering for diaspora to get id card?",
+        "Can you explain the steps involved in registering for the diaspora to get identity card(id)?",
+        "What is required for registering the diaspora to get id card?",
+        "How can a diaspora become registered to get id card?"
+      ],
+      "responses": [
+        "A Rwandan living abroad is registered at the embassy of the country in which he resides. When he arrived in Rwanda without registering at the embassy, ​​he can register at NIDA Headquarters."
+      ]
+    },
+    {
+      "tag": "NIDA_diasporaDocumentsRwandan",
+      "patterns": [
+        "What documents are used to prove that the applicant is Rwandan?",
+        "Can you list the documents used to confirm Rwandan nationality?",
+        "How does one prove that they are Rwandan through documentation?",
+        "What proof of Rwandan nationality is required for the applicant?",
+        "Are there specific documents that are required to establish Rwandan identity?",
+        "Can you specify the documentation needed to demonstrate Rwandan citizenship?"
+      ],
+      "responses": [
+        "- Old ID card of the owner or one of his / her parents, or a copy of his / her 2007 registration book signed and stamped by the Sector Executive Secretary. - A rwandan passport or Laissez passer. - A family book (Livret de famille) issued by the country of residence showing that he is a Rwandan. - Card issued by the Rwandan Embassy in the country of residence (Consular Card / carte consulaire). - A Rwandan citizenship certificate issued by the Immigration Service"
+      ]
+    },
+    {
+      "tag": "NIDA_diasporaDocsIdentity",
+      "patterns": [
+        "What documents can be used to indicate the identity of the applicant?",
+        "Can you list the types of documents that can be used to establish the identity of an applicant?",
+        "What documentation is accepted as proof of identity for the applicant?",
+        "How does one prove their identity through documentation?",
+        "Are there specific documents that are required to confirm the identity of the applicant?",
+        "Can you specify the types of documentation that can be used to verify the identity of the applicant?"
+      ],
+      "responses": [
+        "- All IDs issued by the Republic of Rwanda before 2008. - Birth Certificate (Attestation de Naissance / Attestation d'identité complete) issued by the Republic of Rwanda before 2008. - Birth Certificate issued by the country of birth. - Another document indicating the identity of the applicant. - Another document, indicating the above-mentioned Rwandan nationality can be used. - The child's birth certificate shows the birth certificate (Acte de Naissance / Birth certificate) accompanied by the child's birth certificate."
+      ]
+    },
+    {
+      "tag": "NIDA_BiometricDataCapture",
+      "patterns": [
+        "Where is the biometric data captured?",
+        "What are the methods used to capture biometric data?",
+        "Is biometric data captured onsite or offsite?",
+        "What is the purpose of capturing biometric data?",
+        "How secure is the process of capturing biometric data?"
+      ],
+      "responses": [
+        "- At the nearest embassy/consulat in which they live. - The applicant is required to provide the said above documents.N.B: A Rwandan living abroad who does not have the above documents goes to the panel"
+      ]
+    },
+    {
+      "tag": "NIDA_getIdAffterBiometrics",
+      "patterns": [
+        "Where, when can I get an ID after biometrics?",
+        "What is the location for capturing biometric data?",
+        "Where can biometric data be recorded?",
+        "Can you tell me the place where biometric data is captured?",
+        "Is there a designated location for capturing biometric information?",
+        "Where do you go to have your biometric data captured?"
+      ],
+      "responses": [
+        "Obtaining an ID takes 3 days for those taken biometrics at NIDA, for those abroad they recuperate their ID at the nearest embassy. N.B:A Rwandan living abroad who does not have the above documents goes to the panel"
+      ]
+    },
+    {
+      "tag": "NIDA_idCardRequired",
+      "patterns": [
+        "What is required price to get the identity card?",
+        "Could you inform me of the required amount to acquire an identity card",
+        "Is there a specific cost for obtaining an identity card?",
+        "What is the fee for obtaining an identity card?",
+        "Can you tell me the price for getting an identity card?",
+        "How much does it cost to obtain an identity card?"
+      ],
+      "responses": [
+        "Payment of 500Frw.  N.B: A Rwandan living abroad who does not have these documents goes to the panel"
+      ]
+    },
+    {
+      "tag": "NIDA_WheWhereReceivingID",
+      "patterns": [
+        "When and where Biometric Data capture is taken?",
+        "What is the schedule and location for capturing biometric data?",
+        "Can you tell me when and where biometric data is recorded?",
+        "Where and when is biometric data captured?",
+        "What are the times and places for capturing biometric information?",
+        "Could you provide the dates and locations for capturing biometric data?"
+      ],
+      "responses": [
+        "180 sectors have been set up to facilitate a citizen:here is the link (https://www.nida.gov.rw/index.php?eID=dumpFile&t=f&f=43953&token=b19134f85dbe0d1274efdd7fe91a78e2bcd7a472). IDs are completed in 30 days and are sent the sector of residence, where the applicant can go and recuperate his/her ID."
+      ]
+    },
+    {
+      "tag": "NIDA_IdCorrectionProcess",
+      "patterns": [
+        "What are the essential documents required for correcting/updating an identity card in English?",
+        "Can you list the basic documents needed for correcting/updating an English identity card?",
+        "What documentation is required for making changes to an English identity card?",
+        "Are there specific documents that must be provided for correcting/updating an English identity card?",
+        "Could you specify the fundamental documents required for the correction/update of an English identity card?"
+      ],
+      "responses": [
+        "1. A copy of the birth record made within 15 days of the notary's signature when it was made before 28/08/2016 or a copy made within 30 days of the date of birth. date of birth notarized when made after 28/08/2016. 2. A copy of the passport issued in Rwanda prior to the 2007 registration (passport or Laissez-passer). 3. A copy of DGIE document issued in Rwanda prior to the 2007 registration (passport or Laissez-passer). ID correction service is provided in the Sector where the applicant resides with one of the above documents, and a receipt of 1500Frw. Note: - The document contains the requirements for the correction of the identity card in detail, which can be found on attachment or in the nearest Sector. - Once the identity card is completed, it will be sent to the Sector of your choice if you requested it through Irembo, or at your sector of residence. - If you want to know more about ID correction, please click here: &nbsp;https://irembo.gov.rw/user/citizen/service/nida/payment_for_id_correction"
+      ]
+    },
+    {
+      "tag": "NIDA_CitizenRegistration",
+      "patterns": [
+        "Can you explain the process for registering for an identity card?",
+        "How does one go about obtaining an identity card through registration?",
+        "What steps are involved in registering for an identity card?",
+        "Is there a specific procedure for registering to get an identity card?",
+        "Could you outline the process of registering to receive an identity card?"
+      ],
+      "responses": [
+        "Registration is carried out at health facility where the birth occurred. In case a birth was not registered within the 30 days prescribed by Law; the late or delayed registration of the citizen is conducted at the Sector of residence and requires providing supporting documents. - Birth certificate issued by the doctor at the place of birth for the birth occurred in health facility. - Witnesses and a letter for Executive Secretary of the cell testifying the birth, when the birth occurred in community."
+      ]
+    },
+    {
+      "tag": "NIDA_SpecialCases",
+      "patterns": [
+        "What is required to urgently obtain an identity card?",
+        "Can you provide a list of the requirements to get an identity card as soon as possible?",
+        "What documents are needed to obtain an identity card on an urgent basis?",
+        "What are the essential steps to get an identity card urgently?",
+        "How can one quickly get an identity card and what is required for that?"
+      ],
+      "responses": [
+        "Looking for an identity card urgently requires the following: - Document indicating that he/she has an emergence case. Note:  - Lost or stolen identity cards go through Irembo for ID replacement. - The applicant who has not yet received his ID, is required to go to the nearest Sector. - Those for correction also go to the nearest Sector with supporting documents. Once the identity card is done it will be sent to the sector of choice or sector of residence."
+      ]
+    },
+    {
+      "tag": "NIDA_Declaration",
+      "patterns": [
+        "How can I declare on Irembo portal?",
+        "Can you guide me through the process of declaring on the Irembo website?",
+        "How can I submit a declaration through the Irembo platform?",
+        "What are the steps for making a declaration on the Irembo portal?",
+        "Is there a specific procedure for declaring on the Irembo portal?",
+        "What is the process for making a declaration using the Irembo online platform?"
+      ],
+      "responses": [
+        "You can go anywhere to Irembo agent, he/she shall assist you. Or you create your own account and declare yourself.",
+        "1.Visit the Irembo website (you can usually find the address by searching 'Irembo' online).2.Register or log in to your account (if you don't have an account, you can create one). 3.Navigate to the appropriate page or section for the declaration you want to make. 4.Fill out any required fields or forms with accurate and up-to-date information. 5.Submit the declaration. Note: The specific steps for declaring on the Irembo portal may vary depending on the country, the type of declaration, and other factors, so it's best to consult the Irembo website or support resources for more information."
+      ]
+    },
+    {
+      "tag": "NIDA_ribStation",
+      "patterns": [
+        "How can I know the RIB station to report to?",
+        "Where should I go to report to a RIB station?",
+        "What is the process for determining the RIB station I need to report to?",
+        "Can you explain how I can find out which RIB station I should report to?",
+        "What steps do I need to take to know the RIB station I should report to?",
+        "Is there a specific method for determining the RIB station that I need to report to?"
+      ],
+      "responses": [
+        "When you are filling information on Irembo portal, there is a list of RIB stations ready to receive your, and you choose the nearest one."
+      ]
+    },
+    {
+      "tag": "NIDA_receivedRequest",
+      "patterns": [
+        "How can I know that my request is received?",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "After sending your request via Irembo, you receive a message / email from RIB inviting you to report yourself at RIB station."
+      ]
+    },
+    {
+      "tag": "NIDA_feedback",
+      "patterns": [
+        "How long does it take to get a feedback?",
+        "What is the process for confirming receipt of my request?",
+        "How can I tell if my request has been received?",
+        "Is there a way to check if my request has been received by the recipient?",
+        "Can you explain how I can verify that my request has been received?",
+        "What steps do I need to take to confirm that my request has been received?"
+      ],
+      "responses": [
+        "After submitting your request, you will get a feedback within 5 days"
+      ]
+    },
+    {
+      "tag": "NIDA_ribDocs",
+      "patterns": [
+        "What is the required document when I go to RIB?",
+        "What documents do I need to bring to RIB?",
+        "Can you tell me which documents are required at RIB?",
+        "What are the necessary papers I need to have when visiting RIB?",
+        "What kind of document should I bring to RIB?",
+        "Could you specify the document that is mandatory for RIB?"
+      ],
+      "responses": [
+        "Any document available with your photo."
+      ]
+    },
+    {
+      "tag": "NIDA_afterRib",
+      "patterns": [
+        "What happens after RIB' approve?",
+        "What are the next steps after RIB approval?",
+        "Can you describe what occurs following RIB's approval?",
+        "What is the outcome of RIB's approval?",
+        "Can you explain what transpires once RIB gives its approval?",
+        "What can be expected after getting approval from RIB?"
+      ],
+      "responses": [
+        "After RIB, you are provided with a number for ID replacement payment. And you can I apply for ID replacement certificate (if you want)."
+      ]
+    },
+    {
+      "tag": "NIDA_billingIrembo",
+      "patterns": [
+        "How do you get a billing number from Irembo?",
+        "What is the process for obtaining a billing number from Irembo?",
+        "Can you explain how to acquire a billing number from Irembo?",
+        "Is there a specific method for getting a billing number from Irembo?",
+        "Where can I find the instructions for obtaining a billing number from Irembo?",
+        "What steps do I need to follow to get a billing number from Irembo?"
+      ],
+      "responses": [
+        "You will receive a message from Irembo, by your telephone or email"
+      ]
+    },
+    {
+      "tag": "NIDA_replacementCost",
+      "patterns": [
+        "How much does a replacement ID cost?",
+        "What is the fee for a new ID?",
+        "How much would I have to pay for a replacement ID?",
+        "Can you tell me the cost of getting a new ID?",
+        "Is there a set price for a replacement ID?",
+        "What is the cost involved in obtaining a replacement ID?"
+      ],
+      "responses": [
+        "The ID replacement costs 1500fr paid on Irembo"
+      ]
+    },
+    {
+      "tag": "NIDA_idProduced",
+      "patterns": [
+        "How can I know if my ID is produced?",
+        "Is there a way to check if my ID has been manufactured?",
+        "What is the process for determining if my ID is ready?",
+        "Can you tell me how I can find out if my ID has been produced?",
+        "Is there a status update available for my ID production?",
+        "What are the steps to check if my ID is complete and produced?"
+      ],
+      "responses": [
+        "You will receive a text message from your phone or email informing you, where your ID is sent."
+      ]
+    },
+    {
+      "tag": "NIDA_abroadId",
+      "patterns": [
+        "How does a Rwandan living abroad apply for a lost identity card?",
+        "What is the procedure for a Rwandan living overseas to obtain a replacement identity card?",
+        "Can you explain the process for applying for a lost ID card if you are living abroad as a Rwandan?",
+        "Is there a specific method for Rwandans abroad to replace a lost identity card?",
+        "Where can I find information on how to apply for a lost ID card if I am a Rwandan living overseas?",
+        "What steps does a Rwandan living outside of the country need to follow to apply for a new identity card?"
+      ],
+      "responses": [
+        "A Rwandan living abroad is required to obtain a certificate of loss from the authority in charge where he/she lives, and should submit it to the consulate or embassy of the country in which he or she resides for stamp, and emailing diasporaservices@nida.gov.rw, along with the procurement and contact details of a familiar who will pick the identity card."
+      ]
+    },
+    {
+      "tag": "NIDA_ribFarFrome",
+      "patterns": [
+        "In case RIB stations are far from me, what should I do?",
+        "What are the alternatives if RIB stations are not close to my location?",
+        "How can I handle the situation if the RIB stations are far from me?",
+        "Is there a solution if RIB stations are distant from me?",
+        "Can you suggest what I should do if RIB stations are far from where I am?",
+        "What should I consider if the RIB stations are not easily accessible from my location?"
+      ],
+      "responses": [
+        "You will find a list of RIB stations on Irembo website."
+      ]
+    },
+    {
+      "tag": "NIDA_place",
+      "patterns": [
+        "where can I get the identity card?",
+        "Where is the place to obtain an identity card?",
+        "Can you tell me where to go to get an identity card?",
+        "Can you suggest a spot to obtain my identity card?",
+        "Where would I go to secure an identity card?"
+      ],
+      "responses": [
+        "180 sectors have been set up to facilitate a citizen. IDs are completed in 30 days and are sent the sector of residence, where the applicant can go and recuperate his/her ID."
+      ]
+    },
+    {
+      "tag": "NIDA_processingTime",
+      "patterns": [
+        "How long does it take to process an identity card?",
+        "What is the processing time for a new identity card?",
+        "When can I expect my identity card to be ready?",
+        "How soon can I get my identity card after applying?",
+        "How many days does it take to process an identity card application?"
+      ],
+      "responses": [
+        "It usually takes around 20 working days to process an identity card application."
+      ]
+    },
+    {
+      "tag": "NIDA_fee",
+      "patterns": [
+        "How much does it cost to obtain an identity card?",
+        "What is the fee for a new identity card?",
+        "What is the cost of obtaining an identity card?",
+        "Can you tell me how much I need to pay for an identity card?",
+        "What is the price of getting an identity card issued?"
+      ],
+      "responses": [
+        "The fee for obtaining an identity card is 5000 Rwandan Francs."
+      ]
+    },
+    {
+      "tag": "NIDA_renewal",
+      "patterns": [
+        "How do I renew my identity card?",
+        "What is the process for renewing an identity card?",
+        "How can I replace my expired identity card?",
+        "What are the requirements for renewing an identity card?",
+        "Can you provide information on how to renew an identity card?"
+      ],
+      "responses": [
+        "To renew your identity card, you need to visit a NIDA center with your expired card and a document proving your identity. The fee for renewing an identity card is 1500 Rwandan Francs."
+      ]
+    },
+    {
+      "tag": "NIDA_replacement",
+      "patterns": [
+        "How do I replace a lost or damaged identity card?",
+        "What is the process for replacing a lost or damaged identity card?",
+        "How can I get a replacement identity card?",
+        "What are the requirements for replacing a lost or damaged identity card?",
+        "Can you provide information on how to replace a lost or damaged identity card?"
+      ],
+      "responses": [
+        "To replace a lost or damaged identity card, you need to visit a NIDA center with a document proving your identity. The fee for replacing a lost or damaged identity card is 1500 Rwandan Francs."
+      ]
+    },
+    {
+      "tag": "NIDA_identityCardValidity",
+      "patterns": [
+        "How long is an identity card valid?",
+        "What is the validity period of an identity card?",
+        "How many years is an identity card valid for?",
+        "When does an identity card need to be renewed?",
+        "Can you tell me the duration of an identity card's validity?"
+      ],
+      "responses": [
+        "An identity card is valid for more than 10 years."
+      ]
+    },
+    {
+      "tag": "NIDA_documentationRequirements",
+      "patterns": [
+        "What documents are required to apply for an identity card?",
+        "What is needed to get an identity card?",
+        "What paperwork is required for an identity card application?",
+        "Can you provide a list of required documents for an identity card application?",
+        "What do I need to provide to get an identity card issued?"
+      ],
+      "responses": [
+        "To apply for an identity card, you need to provide a document proving your identity (school card, insurance card or certificate issued by the Sector (full identity certificate, identity card)), payment of 500Frw using IREMBO."
+      ]
+    },
+    {
+      "tag": "NIDA_cardIssuanceLocation",
+      "patterns": [
+        "Where can I obtain an identity card?",
+        "What is the location to get an identity card issued?",
+        "Where can I get an identity card?",
+        "What are the places to get an identity card issued?",
+        "Can you provide information on the location to obtain an identity card?"
+      ],
+      "responses": [
+        "Identity cards can be obtained at NIDA centers."
+      ]
+    },
+    {
+      "tag": "NIDA_onlineServices",
+      "patterns": [
+        "What online services does NIDA offer?",
+        "Can I apply for an identity card online?",
+        "What are the online services available at NIDA?",
+        "What kind of online services are provided by NIDA?",
+        "Can you provide information on the online services offered by NIDA?"
+      ],
+      "responses": [
+        "NIDA offers online services for identity card application and payment through the IREMBO platform (irembo.gov.rw/user/citizen/service/nida/application_for_national_id)."
+      ]
+    },
+    {
+      "tag": "NIDA_identityCardUsage",
+      "patterns": [
+        "What is the purpose of an identity card?",
+        "What are the uses of an identity card?",
+        "What is the significance of an identity card?",
+        "Can you explain the importance of an identity card?",
+        "Why is an identity card necessary?"
+      ],
+      "responses": [
+        "An identity card serves as a form of official identification and is required for various activities, such as opening a bank account, voting, and accessing government services."
+      ]
+    },
+    {
+      "tag": "NIDA_identityVerification",
+      "patterns": [
+        "How can I verify my identity?",
+        "What is the process for verifying identity?",
+        "How can I prove my identity?",
+        "What are the ways to verify identity?",
+        "Can you provide information on how to verify identity?"
+      ],
+      "responses": [
+        "NIDA uses Biometric Verification: To verify that the person presenting the ID is the same individual whose portrait appears on the ID"
+      ]
+    },
+    {
+      "tag": "NIDA_DOCUMENTS_FOR_CITIZENSHIP",
+      "patterns": [
+        "What documents do I need to prove my citizenship?",
+        "What are the required documents for obtaining citizenship?",
+        "Can you list the documents needed to prove citizenship?",
+        "Are there specific documents required for citizenship?",
+        "Could you provide a list of the documents needed for citizenship?"
+      ],
+      "responses": [
+        "1. Birth certificate. 2. Proof of continuous residency in the country for a certain period of time. 3. Proof of knowledge of the language, history, and culture of the country. 4. Proof of good character, such as a criminal background check."
+      ]
+    },
+    {
+      "tag": "RHA_address",
+      "patterns": [
+        "What is address of RHA?",
+        "Where are RHA located?",
+        "Where can I find RHA?"
+      ],
+      "responses": [
+        "KG 546 St, Kigali",
+        "You can find us at KG 546 St, Kigali, P.O.Box: 2469 Kigali Rwanda"
+      ]
+    },
+    {
+      "tag": "About_RHA",
+      "patterns": [
+        "when rwanda housing authority was established?",
+        "RHA is it public institution?",
+        "what is RHA?"
+      ],
+      "responses": [
+        "Rwanda Housing Authority (RHA) is a public institution established by the Law N0 40/2010 of 25/10/2010 overseen by the Ministry of Infrastructure.Rwanda Housing Authority (RHA) is a public institution established by the Law N0 40/2010 of 25/10/2010 overseen by the Ministry of Infrastructure. It was established in a bid to improve the quality of life of Rwandans through planning, organizing and spearheading rural settlement, urban settlement, public building construction, affordable housing; management of public office space and Government Assets; and regulation of the construction industry.",
+        "RHA  was established in a bid to improve the quality of life of Rwandans through planning, organizing and spearheading rural settlement, urban settlement, public building construction, affordable housing; management of public office space and Government Assets; and regulation of the construction industry."
+      ]
+    },
+    {
+      "tag": "RHA_services",
+      "patterns": [
+        "What is the services RHA can offer?",
+        " I need your services",
+        "services of RHA"
+      ],
+      "responses": [
+        "use this link >> https://www.rha.gov.rw/services",
+        " BUILDING REGULATION, INSPECTION AND AUDIT DIVISION ,Rwanda Affordabble Housing Demand System(https://iwanjye.brd.rw/),Building Permit Management Information(https://bpmis.gov.rw/),Rwanda Civil Service Recruitments(https://e-recruitment.mifotra.gov.rw/#/welcome)"
+      ]
+    },
+    {
+      "tag": "RHA_Publications",
+      "patterns": [
+        "what about national urban policy?"
+      ],
+      "responses": [
+        "for more Strategies and policies visit >> https://www.rha.gov.rw/publications?tx_filelist_filelist%5Baction%5D=list&tx_filelist_filelist%5Bcontroller%5D=File&tx_filelist_filelist%5Bpath%5D=%2Fuser_upload%2FRHA%2FPublications%2FPolicies_and_strategies%2F&cHash=12064c74175edfa9ba9d572144fa7f2"
+      ]
+    },
+    {
+      "tag": "RHA_guidelines",
+      "patterns": [
+        "What is BUILDING INSPECTION GUIDELINE TOOLS",
+        "How can I get CONSTRUCTION PERMIT DETAILED CHECKLIST UPDATED?"
+      ],
+      "responses": [
+        "visit this link >> https://www.rha.gov.rw/publications?tx_filelist_filelist%5Baction%5D=list&tx_filelist_filelist%5Bcontroller%5D=File&tx_filelist_filelist%5Bpath%5D=%2Fuser_upload%2FRHA%2FPublications%2FGuidelines%2F&cHash=296fef9f5121d51fc0f992d4b5efd034"
+      ]
+    },
+    {
+      "tag": "RHA_Owning_House",
+      "patterns": [
+        "Nibiki bisabwa kugira inzu yawe?"
+      ],
+      "responses": [
+        "Kuba uri Umunyarwanda cyangwa umunyamahanga watuye burundu mu Rwanda, Kugira urugo rwinjiza buri kwezi rutarenga 1.200.000 frw yu Rwanda kugirango wungukire ku nyungu zinguzanyo zitarenze 11% cyangwa hagati ya 1.200.000-1,500.000 frw yu Rwanda kugirango bungukirwe ninyungu zinguzanyo zitarenze 13%"
+      ]
+    },
+    {
+      "tag": "RHA_responsibility",
+      "patterns": [
+        "What is the Rwanda Housing Authority responsible for?"
+      ],
+      "responses": [
+        " The Rwanda Housing Authority is responsible for the development and regulation of the housing sector in Rwanda, with the goal of ensuring that all citizens have access to decent and affordable housing"
+      ]
+    },
+    {
+      "tag": "RHA_accessibility",
+      "patterns": [
+        "How does the Rwanda Housing Authority ensure access to affordable housing for citizens?"
+      ],
+      "responses": [
+        "The Rwanda Housing Authority provides technical support to housing developers, implements housing policies, and regulates the real estate market in Rwanda to ensure that citizens have access to affordable housing. Additionally, the RHA is involved in developing and managing low-cost housing projects for low-income citizens."
+      ]
+    },
+    {
+      "tag": "RHA_support",
+      "patterns": [
+        "What kind of technical support does the Rwanda Housing Authority provide to housing developers?"
+      ],
+      "responses": [
+        "The Rwanda Housing Authority provides technical support to housing developers, such as assisting with project planning and design, providing access to financing, and helping with the procurement of construction materials."
+      ]
+    },
+    {
+      "tag": "RHA_loans",
+      "patterns": [
+        "Can citizens apply for housing loans through the Rwanda Housing Authority?",
+        " Can citizens apply for housing loans through the Rwanda Housing Authority?"
+      ],
+      "responses": [
+        "Yes, citizens can apply for housing loans through the Rwanda Housing Authority to help finance the purchase or construction of a home.",
+        "Yes, citizens can apply for housing loans through the Rwanda Housing Authority to help finance the purchase or construction of a home."
+      ]
+    },
+    {
+      "tag": "RHA_low-cost ",
+      "patterns": [
+        "What kind of low-cost housing projects does the Rwanda Housing Authority develop and manage?"
+      ],
+      "responses": [
+        "The Rwanda Housing Authority develops and manages low-cost housing projects for low-income citizens, with the goal of making housing affordable for everyone."
+      ]
+    },
+    {
+      "tag": "RHA_market_in_rwanda",
+      "patterns": [
+        "How does the Rwanda Housing Authority regulate the real estate market in Rwanda?"
+      ],
+      "responses": [
+        "The Rwanda Housing Authority regulates the real estate market in Rwanda by implementing housing policies and regulations, overseeing the development of new housing projects, and ensuring that all housing developments meet minimum standards of quality and safety."
+      ]
+    },
+    {
+      "tag": "RHA_Senior_Management",
+      "patterns": [
+        "Who is charge of RHA"
+      ],
+      "responses": [
+        "use this link >> https://www.rha.gov.rw/about-rha/overview"
+      ]
+    }
+  ]
+}
