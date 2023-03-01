@@ -23,3 +23,6 @@ numpy
 requests
 torch
 psycopg2
+langdetect
+chatterbot==1.0.4
+pytz
