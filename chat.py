@@ -46,4 +46,4 @@ class chatBot():
                 if tag == intent["tag"]:
                     return random.choice(intent['responses'])
         else:
-            return "I am sorry I do not understand the question! 🥺"
+            return "I'm sorry, I'm a bot and I was trained to perform some specific task, Please ask me about gov.rw 🥺"

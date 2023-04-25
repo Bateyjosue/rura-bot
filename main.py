@@ -75,7 +75,7 @@ def query(question : str):
 def bot(text):
   from chatterbot import ChatBot
   from chatterbot.trainers import ListTrainer
-  chatbot = ChatBot("Chatpot")
+  chatbot = ChatBot("govBot")
 
   trainer = ListTrainer(chatbot)
   trainer.train([
@@ -181,19 +181,18 @@ def index(request: Request):
 def chat(request: Request, message:str):
   """ENDPOIT TO CHATBOT"""
 
-  dic.clear()
-  user_message.clear()
-  bot_message.clear()
+  # dic.clear()
+  # user_message.clear()
+  # bot_message.clear()
 
 
   current_lang = detects(message)
-  print(current_lang, message)
-
   if current_lang == 'en':
     welcomes = [wel for wel in welcome]
     user_message.append(message)
     response = query(message)
-    bot_message.append(bot(response)) if response == "I do not understand..." else bot_message.append(response)
+    bot_message.append(response)
+    # bot_message.append(bot(response)) if response == "I do not understand..." else bot_message.append(response)
 
     for index, i in enumerate(user_message):
       dic[f'user{index}'] = i
@@ -209,7 +208,8 @@ def chat(request: Request, message:str):
     user_message.append(message)
     welcomes = [translates(txt, current_lang) for txt in welcome]
     response = query(translates(message, 'en'))
-    response = bot(response) if response == "I do not understand..." else response
+    # response = bot(response) if response == "I do not understand..." else response
+    response = response
     message = translates(response, current_lang)
     bot_message.append(message)
 

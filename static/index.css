@@ -154,8 +154,6 @@ p {
   padding: 2rem 2rem;
   position: sticky;
   top: 0;
-
-  
 }
 
 .chat-container__content {
@@ -165,7 +163,7 @@ p {
   gap:.5rem;
   color: #ddd;
   font-weight: bold;
-  overflow:scroll;
+  overflow-y: auto;
   max-height: 500px;
   height: 500px;
   padding-bottom: 5rem;
@@ -175,13 +173,6 @@ p {
   display: flex;
   gap: .2rem;
   align-items: center;
-}
-
-.message-content span.material-symbols-outlined {
-/*   background: #219ebc; 
-  border-radius: 2rem;
-  padding: .5rem;
-  color: white; */
 }
 
 .chat-container__content div.bot {
