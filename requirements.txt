@@ -26,3 +26,4 @@ psycopg2
 langdetect
 chatterbot==1.0.4
 pytz
+python-dateutil>=2.8.1
